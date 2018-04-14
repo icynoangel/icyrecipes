@@ -1,0 +1,22 @@
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+
+class Button extends Component {
+  static propTypes = {
+    onClick: PropTypes.func.isRequired,
+    caption: PropTypes.string.isRequired,
+    type: PropTypes.string
+  };
+
+  render() {
+    const modifier = `--${this.props.type}`;
+
+    return (
+      <button className={`button ${modifier}`} onClick={this.props.onClick}>
+        <span className="button__caption">{this.props.caption}</span>
+      </button>
+    );
+  }
+}
+
+export default Button;
