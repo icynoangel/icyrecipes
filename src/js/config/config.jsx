@@ -1,14 +1,6 @@
-const production = process.env.NODE_ENV === 'production' ? true : false;
+const SERVICE_URL = process.env.REACT_APP_SERVICE_URL;
 
-let SERVICE_URL = '';
-
-if (!production) {
-  SERVICE_URL = 'http://localhost:3000';
-} else {
-  SERVICE_URL = 'http://localhost:3000';
-}
-
-var basePath = '/';
+const basePath = '/';
 
 const config = {
   basePath: basePath,

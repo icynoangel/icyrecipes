@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {shallow, mount} from 'enzyme';
-import Item from './../../../src/js/components/items/item';
 import Items from './../../../src/js/components/items/items';
 import Immutable from 'immutable';
+import renderer from 'react-test-renderer';
 
 describe('<Items />', function() {
   this.items = Immutable.fromJS([
@@ -24,17 +23,15 @@ describe('<Items />', function() {
   };
 
   it('Should render <Items />', () => {
-    shallow(this.getComponent(this.items));
-  });
+    const items = renderer.create(this.getComponent(this.items)).toJSON();
 
-  it('Should render 2 Item components', () => {
-    const wrapper = shallow(this.getComponent(this.items));
-    expect(wrapper.find(Item).length).toEqual(2);
+    expect(items).toMatchSnapshot();
   });
 
   it('Should render no Item', () => {
-    const items = Immutable.fromJS([]);
-    const wrapper = shallow(this.getComponent(items));
-    expect(wrapper.find(Item).length).toEqual(0);
+    const itemsList = Immutable.fromJS([]);
+    const items = renderer.create(this.getComponent(itemsList)).toJSON();
+
+    expect(items).toMatchSnapshot();
   });
 });

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {NOTIFICATION} from './../../config/constants';
 
 class Notification extends Component {
   static propTypes = {

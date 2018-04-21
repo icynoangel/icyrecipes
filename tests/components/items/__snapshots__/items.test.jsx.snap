@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Items /> Should render <Items /> 1`] = `
+<div
+  className="items"
+>
+  <div
+    className="item"
+  >
+    <div
+      className="item__image"
+    >
+      <img
+        alt="Lonely boat"
+        src="/boat.jpg"
+      />
+    </div>
+    <div
+      className="item__details"
+    >
+      <div
+        className="item__title"
+      >
+        Boat
+      </div>
+      <div
+        className="item__description"
+      >
+        Lonely boat
+      </div>
+    </div>
+  </div>
+  <div
+    className="item"
+  >
+    <div
+      className="item__image"
+    >
+      <img
+        alt="Sunset rain"
+        src="/rain.jpg"
+      />
+    </div>
+    <div
+      className="item__details"
+    >
+      <div
+        className="item__title"
+      >
+        Rain
+      </div>
+      <div
+        className="item__description"
+      >
+        Sunset rain
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Items /> Should render no Item 1`] = `
+<div
+  className="items"
+/>
+`;

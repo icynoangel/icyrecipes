@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Should render a primary Button 1`] = `
+<button
+  className="button --primary"
+  onClick={[Function]}
+>
+  <span
+    className="button__caption"
+  >
+    Get Items
+  </span>
+</button>
+`;
+
+exports[`<Button /> Should render a secondary Button 1`] = `
+<button
+  className="button --secondary"
+  onClick={[Function]}
+>
+  <span
+    className="button__caption"
+  >
+    Get Items
+  </span>
+</button>
+`;
