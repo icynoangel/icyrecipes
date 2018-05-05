@@ -1,19 +1,19 @@
 
-const url = 'http://localhost:3000';
+const url = 'http://localhost:8000';
 
 const responseSuccess = {
   "items": [{
-    "itemImage": url + "/boat.jpg",
+    "itemImage": url + "/images/boat.jpg",
     "itemTitle": "Boat",
     "itemDescription": "Lonely boat"
   },
   {
-    "itemImage": url + "/rain.jpg",
+    "itemImage": url + "/images/rain.jpg",
     "itemTitle": "Rain",
     "itemDescription": "Sunset rain"
   },
   {
-    "itemImage": url + "/lake.jpg",
+    "itemImage": url + "/images/lake.jpg",
     "itemTitle": "Lake",
     "itemDescription": "Nice lake"
   }]

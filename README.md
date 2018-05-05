@@ -15,6 +15,7 @@
 * redux-mock-store
 * gulp (only for kss)
 * jest-sonar-reporter
+* storybook
 
 ### npm scrips
 
@@ -22,9 +23,14 @@
 * build - build for production
 * test - run unit tests
 * coverage - generate coverage report
+* dev - run both server and client in development mode
+* devserver - run only server in development mode
+* server - run server in production mode
 * flow - run flowtype check (flow isn't used though)
 * eslint - run eslint
 * beautify - use prettier to beautify code
+* storybook - run storybook in dev mode
+* build-storybook - build story book for production 
 
 ### It has hooks setup to run on commit
 
@@ -37,13 +43,6 @@
 * see sonar-project.properties file
 * will generate files for SonarQube scanner when coverage is run
 
-### Includes a mock server (express) to test the app locally
-
-```
-cd server
-npm install
-npm start
-```
 
 ### kss-node
 

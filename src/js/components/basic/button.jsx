@@ -5,7 +5,7 @@ class Button extends Component {
   static propTypes = {
     onClick: PropTypes.func.isRequired,
     caption: PropTypes.string.isRequired,
-    type: PropTypes.string
+    type: PropTypes.string.isRequired
   };
 
   render() {
