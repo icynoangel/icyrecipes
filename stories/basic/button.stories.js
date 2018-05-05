@@ -6,7 +6,7 @@ import { withInfo } from '@storybook/addon-info';
 
 import Button from './../../src/js/components/basic/button';
 
-storiesOf('Button', module)
+storiesOf('Basic', module)
   .add('Primary button', 
     withInfo()( () => {
       return <Button 

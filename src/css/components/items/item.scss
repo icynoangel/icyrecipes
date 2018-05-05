@@ -32,7 +32,7 @@ $item-shadow-color: $alto;
   background-color: $item-bg-color;
   box-shadow: 3px 3px 6px $item-shadow-color;
   color: $item-color;
-  float: left;
+  display: inline-block;
   font-size: $item-font-size;
   height: 24rem;
   margin-left: 2rem;
