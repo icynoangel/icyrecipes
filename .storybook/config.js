@@ -22,7 +22,7 @@ function loadStories() {
 configure(loadStories, module);
 
 setOptions({
-  showDownPanel: false,
+  showAddonPanel: true,
   name: 'IcyRecipes',
   url: 'https://github.com/icynoangel/icyrecipes.git',
   sidebarAnimations: true

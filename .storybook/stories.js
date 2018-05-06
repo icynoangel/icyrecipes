@@ -4,7 +4,7 @@
   * order is reflected in storybook sidebar
   */
 
-import '../stories/introduction';
+import '../stories/introduction/introduction.stories.js';
 
 import '../stories/styles/colors.stories.js';
 import '../stories/styles/fonts.stories.js';
