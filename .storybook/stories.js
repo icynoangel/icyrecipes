@@ -6,6 +6,10 @@
 
 import '../stories/introduction';
 
+import '../stories/styles/colors.stories.js';
+import '../stories/styles/fonts.stories.js';
+import '../stories/styles/typography.stories.js';
+
 import '../stories/basic/button.stories.js';
 import '../stories/basic/buttons.stories.js';
 

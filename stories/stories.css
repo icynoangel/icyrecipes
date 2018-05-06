@@ -3,7 +3,7 @@
   margin: 20px;
 }
 
-#root div:nth-child(2) {
+#root > div > div:nth-child(2) {
   position: relative;
   min-height: 80px;
 }
