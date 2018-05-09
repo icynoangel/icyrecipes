@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { withInfo } from '@storybook/addon-info';
 
-import Items from './../../src/js/components/items/items';
+import Items from './../../src/client/js/components/items/items';
 import Immutable from 'immutable';
 
 const items = Immutable.fromJS([

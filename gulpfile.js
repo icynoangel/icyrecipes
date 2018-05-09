@@ -7,7 +7,7 @@ var kss = require('kss');
 
 var kssConfig = {
   "title": "IcyRecipes",
-  "source": "src/css/",
+  "source": "src/client/css/",
   "destination": "build/styleguide/",
   "builder": "kss-template/",
   "css": "css/index.css"
@@ -16,7 +16,7 @@ var kssConfig = {
 
 // kss tasks
 
-var sassFiles = [__dirname + '/src/css/index.scss', __dirname + '/src/css/normalize.css', __dirname + '/node_modules/csstyle/csstyle.scss'],
+var sassFiles = [__dirname + '/src/client/css/index.scss', __dirname + '/src/client/css/normalize.css', __dirname + '/node_modules/csstyle/csstyle.scss'],
     cssDest = './build/styleguide/css/';
 
 gulp.task('kss:scss', function(){
@@ -31,9 +31,9 @@ gulp.task('kss:scss', function(){
 
 gulp.task('kss:watch', function() {
   return gulp.watch([
-    'src/css/*',
-    'src/css/**/*',
-    'src/css/**/**/*'
+    'src/client/css/*',
+    'src/client/css/**/*',
+    'src/client/css/**/**/*'
     ], ['kss:rebuild']);
 });
 
@@ -72,8 +72,8 @@ gulp.task('kss:open', function(){
 });
 
 gulp.task('kss:copy:deps', function() {
-    gulp.src(['./src/fonts/**/*']).pipe(gulp.dest('./build/styleguide/fonts/'));
-    gulp.src(['./src/images/**/*']).pipe(gulp.dest('./build/styleguide/images/'));
+    gulp.src(['./src/client/fonts/**/*']).pipe(gulp.dest('./build/styleguide/fonts/'));
+    gulp.src(['./src/client/images/**/*']).pipe(gulp.dest('./build/styleguide/images/'));
 });
 
 gulp.task('kss', ['kss:copy:deps', 'kss:connect', 'kss:scss', 'kss:build', 'kss:open', 'kss:watch']);

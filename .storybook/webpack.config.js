@@ -9,6 +9,7 @@
 const webpackConfigDev = require('./../config/webpack.config.dev');
 
 const moduleRules = [
+  webpackConfigDev.module.rules[1].oneOf[1],
   webpackConfigDev.module.rules[1].oneOf[0],
   webpackConfigDev.module.rules[1].oneOf[2],
   webpackConfigDev.module.rules[1].oneOf[3],
