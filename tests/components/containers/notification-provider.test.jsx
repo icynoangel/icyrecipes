@@ -7,6 +7,9 @@ import NotificationProvider from '../../../src/js/components/containers/notifica
 import Notification from '../../../src/js/components/notification/notification';
 import appInitialState from '../../../src/js/app-state/app-initial-state';
 
+jest.unmock('redux');
+jest.unmock('react-redux');
+
 describe('Providers - NotificationProvider', function() {
   beforeEach(() => {
     const middlewares = [thunk];

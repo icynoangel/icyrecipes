@@ -9,6 +9,9 @@ import appInitialState from '../../../src/js/app-state/app-initial-state';
 
 import {getItems} from '../../../src/js/actions/items-actions';
 
+jest.unmock('redux');
+jest.unmock('react-redux');
+
 jest.mock('../../../src/js/actions/items-actions');
 
 describe('Providers - ButtonsProvider', function() {

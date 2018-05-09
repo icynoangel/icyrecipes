@@ -7,6 +7,9 @@ import ItemsProvider from '../../../src/js/components/containers/items-provider'
 import Items from '../../../src/js/components/items/items';
 import appInitialState from '../../../src/js/app-state/app-initial-state';
 
+jest.unmock('redux');
+jest.unmock('react-redux');
+
 describe('Providers - ItemsProvider', function() {
   beforeEach(() => {
     const middlewares = [thunk];
