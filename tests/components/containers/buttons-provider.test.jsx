@@ -7,6 +7,10 @@ import ButtonsProvider from '../../../src/js/components/containers/buttons-provi
 import Buttons from '../../../src/js/components/basic/buttons';
 import appInitialState from '../../../src/js/app-state/app-initial-state';
 
+import {getItems} from '../../../src/js/actions/items-actions';
+
+jest.mock('../../../src/js/actions/items-actions');
+
 describe('Providers - ButtonsProvider', function() {
   beforeEach(() => {
     const middlewares = [thunk];
@@ -22,8 +26,11 @@ describe('Providers - ButtonsProvider', function() {
 
   it('Should pass getItems as prop', () => {
     const wrapper = mount(<ButtonsProvider store={this.store} />);
+    const gi = wrapper.find(Buttons).prop('getItems');
 
-    const getItems = wrapper.find(Buttons).prop('getItems');
-    expect(typeof getItems == 'function').toBe(true);
+    expect(typeof gi == 'function').toBe(true);
+
+    gi();
+    expect(getItems).toHaveBeenCalled();
   });
 });

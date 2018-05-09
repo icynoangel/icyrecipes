@@ -16,4 +16,13 @@ describe('Reducers - main reducer', function() {
     expect(ui).toHaveBeenCalled();
     expect(items).toHaveBeenCalled();
   });
+
+  it('Should call all reducer functions with appInitialState as default', () => {
+    const newState = reducer(undefined, {
+      type: 'unknown'
+    });
+
+    expect(ui).toHaveBeenCalled();
+    expect(items).toHaveBeenCalled();
+  });
 });

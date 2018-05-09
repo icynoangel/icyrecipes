@@ -35,7 +35,7 @@ describe('Services - Ajax', function() {
 
   it('Should call post related methods from Superagent and reject', done => {
     superagent.__setMockError('mock-error');
-    const promise = ajax.post(this.url, this.data, this.headers);
+    const promise = ajax.post(this.url, this.data);
 
     promise.catch(error => {
       expect(error).toEqual('mock-error');
@@ -63,7 +63,7 @@ describe('Services - Ajax', function() {
 
   it('Should call get related methods from Superagent and reject', done => {
     superagent.__setMockError('mock-error');
-    const promise = ajax.get(this.url, this.headers);
+    const promise = ajax.get(this.url);
 
     promise.catch(error => {
       expect(error).toEqual('mock-error');
@@ -91,7 +91,7 @@ describe('Services - Ajax', function() {
 
   it('Should call del related methods from Superagent and reject', done => {
     superagent.__setMockError('mock-error');
-    const promise = ajax.del(this.url, this.headers);
+    const promise = ajax.del(this.url);
 
     promise.catch(error => {
       expect(error).toEqual('mock-error');
@@ -120,7 +120,7 @@ describe('Services - Ajax', function() {
 
   it('Should call put related methods from Superagent and reject', done => {
     superagent.__setMockError('mock-error');
-    const promise = ajax.put(this.url, this.data, this.headers);
+    const promise = ajax.put(this.url, this.data);
 
     promise.catch(error => {
       expect(error).toEqual('mock-error');
