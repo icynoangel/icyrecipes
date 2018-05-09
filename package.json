@@ -65,10 +65,10 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "flow": "flow",
-    "precommit": "lint-staged && CI=true npm test",
+    "precommit": "lint-staged && CI=true npm run coverage",
     "eslint": "eslint ./ --no-cache",
     "beautify": "prettier --single-quote --no-bracket-spacing true --write",
-    "coverage": "node scripts/test.js --env=jsdom --coverage --no-cache",
+    "coverage": "node scripts/test.js --env=jsdom --coverage --no-cache --bail",
     "storybook": "start-storybook -p 9000 -s ./src/images,./src/fonts -c .storybook",
     "build-storybook": "build-storybook",
     "devserver": "node_modules/nodemon/bin/nodemon.js server/server.js dev",
@@ -95,6 +95,14 @@
       "src/js/**/*.{js,jsx}",
       "!src/js/registerServiceWorker.js"
     ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
     "setupFiles": [
       "<rootDir>/config/polyfills.js"
     ],
