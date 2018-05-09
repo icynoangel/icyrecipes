@@ -1,18 +1,9 @@
 import React, {Component} from 'react';
 import { storiesOf } from '@storybook/react';
 import _ from 'lodash';
-import styles from './styles.common';
+import {styles, StoriesGrid} from './../stories.common';
 
-const colors = {
-  '$black': '#000000',
-  '$white': '#ffffff',
-  '$transparent': 'rgba(0, 0, 0, 0)',
-  '$mine-shaft': '#353535',
-  '$gallery': '#eeeeee',
-  '$alto': '#cecece',
-  '$prussian-blue': '#002255',
-  '$boulder': '#757575'
-};
+import colors from '!mk-sass-variables-loader!./../../src/client/css/colors.scss';
 
 class Colors extends Component {
   
@@ -25,9 +16,9 @@ class Colors extends Component {
         ...styles.color
       };
       colorsArray.push(
-        <div style={{ marginBottom: "5px", marginTop: "5px" }}>
+        <div style={styles.item}>
           <div style={{ width: '250px', ...styles.name}}>
-            {key}
+            ${key}
           </div>
           <div style={{ width: '250px', ...styles.name}}>
             {val}
@@ -41,15 +32,10 @@ class Colors extends Component {
   }
 
   render() {
-    return (<div style={styles.main}>
-      <h1>Colors</h1>
-
-      <ul style={styles.ul}>
-        {this.colors.map((el, i) => (
-          <li key={i} style={styles.li}>{el}</li>
-        ))}
-      </ul>
-    </div>);
+    return <StoriesGrid
+      title="Colors"
+      items={this.colors}
+    />;
   }
 }
 
