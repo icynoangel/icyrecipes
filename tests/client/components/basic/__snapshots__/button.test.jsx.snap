@@ -3,7 +3,7 @@
 exports[`<Button /> Should render a primary Button 1`] = `
 <button
   className="button --primary"
-  onClick={[Function]}
+  onClick={[MockFunction]}
 >
   <span
     className="button__caption"
@@ -16,7 +16,7 @@ exports[`<Button /> Should render a primary Button 1`] = `
 exports[`<Button /> Should render a secondary Button 1`] = `
 <button
   className="button --secondary"
-  onClick={[Function]}
+  onClick={[MockFunction]}
 >
   <span
     className="button__caption"

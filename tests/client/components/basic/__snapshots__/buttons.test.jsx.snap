@@ -6,7 +6,7 @@ exports[`<Buttons /> Should render <Buttons /> 1`] = `
 >
   <button
     className="button --primary"
-    onClick={[Function]}
+    onClick={[MockFunction]}
   >
     <span
       className="button__caption"
