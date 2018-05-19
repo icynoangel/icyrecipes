@@ -96,7 +96,8 @@
   "jest": {
     "collectCoverageFrom": [
       "src/client/js/**/*.{js,jsx}",
-      "!src/client/js/registerServiceWorker.js"
+      "!src/client/js/registerServiceWorker.js",
+      "!src/client/js/middlewares/*"
     ],
     "coverageThreshold": {
       "global": {

@@ -4,9 +4,13 @@ import thunk from 'redux-thunk';
 
 import reducer from './reducers/reducer';
 
-const store = createStore(reducer, applyMiddleware(thunk));
+function configureStore(middlewares = []) {
+  const store = createStore(reducer, applyMiddleware(thunk, ...middlewares));
 
-export default {
-  store,
-  Provider
-};
+  return {
+    store,
+    Provider
+  };
+}
+
+export default configureStore;

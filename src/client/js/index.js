@@ -4,10 +4,14 @@ import registerServiceWorker from './registerServiceWorker';
 import configureStore from './configureStore';
 import App from './app';
 
+import logger from './middlewares/logger-middleware';
+
+const storeConfig = configureStore([logger]);
+
 ReactDOM.render(
-  <configureStore.Provider store={configureStore.store}>
+  <storeConfig.Provider store={storeConfig.store}>
     <App />
-  </configureStore.Provider>,
+  </storeConfig.Provider>,
   document.getElementById('root')
 );
 
