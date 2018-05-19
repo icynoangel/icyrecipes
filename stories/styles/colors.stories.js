@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import _ from 'lodash';
 import {styles, StoriesGrid} from './../stories.common';
 
-import colors from '!mk-sass-variables-loader!./../../src/client/css/colors.scss';
+import colors from '!mk-sass-variables-loader!./../../src/client/css/colors.scss'; // eslint-disable-line
 
 class Colors extends Component {
   

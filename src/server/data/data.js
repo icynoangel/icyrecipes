@@ -1,4 +1,8 @@
-const url = 'http://localhost:8000';
+const ip = require('ip');
+const SERVER_PORT = require('../../config').SERVER_PORT;
+const port = process.env.PORT || SERVER_PORT;
+
+const url = `http://${ip.address()}:${port}`;
 
 const responseSuccess = {
   items: [

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import _ from 'lodash';
 import {styles, StoriesGrid} from './../stories.common';
 
-import fonts from '!mk-sass-variables-loader!./../../src/client/css/typography.scss';
+import fonts from '!mk-sass-variables-loader!./../../src/client/css/typography.scss'; // eslint-disable-line
 
 class Fonts extends Component {
   
