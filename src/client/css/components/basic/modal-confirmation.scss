@@ -1,0 +1,21 @@
+
+$modal-confirmation-height: 25rem;
+
+@include component(modal-confirmation) {
+
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  min-height: $modal-confirmation-height;
+
+  @include part(description) {
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  @include part(buttons) {
+    text-align: center;
+    width: 100%;
+  }
+}

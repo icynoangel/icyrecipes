@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Buttons /> Should render <Buttons /> 1`] = `
+exports[`<Buttons /> Should render <Buttons />, <Modal /> and <ModalConfirmation /> 1`] = `
 <div
   className="buttons"
 >
@@ -12,6 +12,16 @@ exports[`<Buttons /> Should render <Buttons /> 1`] = `
       className="button__caption"
     >
       Get Items
+    </span>
+  </button>
+  <button
+    className="button --primary"
+    onClick={[Function]}
+  >
+    <span
+      className="button__caption"
+    >
+      Open Modal
     </span>
   </button>
 </div>
