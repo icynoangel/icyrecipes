@@ -4,9 +4,9 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { withInfo } from '@storybook/addon-info';
 
-import Button from './../../src/client/js/components/basic/button';
+import Button from './../../src/client/js/components/button/button';
 
-storiesOf('Basic', module)
+storiesOf('Button', module)
   .add('Primary button', 
     withInfo()( () => {
       return <Button 

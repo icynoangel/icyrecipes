@@ -4,9 +4,9 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { withInfo } from '@storybook/addon-info';
 
-import Button from './../../src/client/js/components/basic/button';
-import Modal from './../../src/client/js/components/basic/modal';
-import ModalConfirmation from './../../src/client/js/components/basic/modal-confirmation';
+import Button from './../../src/client/js/components/button/button';
+import Modal from './../../src/client/js/components/modal/modal';
+import ModalConfirmation from './../../src/client/js/components/modal/modal-confirmation';
 
 class ModalConfirmationStory extends Component {
 
@@ -55,7 +55,7 @@ class ModalConfirmationStory extends Component {
   }
 }
 
-storiesOf('Basic', module)
+storiesOf('Modal', module)
   .add('Modal confirmation', 
     withInfo({
       text: `Markup of Modal component

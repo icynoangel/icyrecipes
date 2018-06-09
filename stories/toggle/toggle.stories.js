@@ -4,9 +4,9 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { withInfo } from '@storybook/addon-info';
 
-import Toggle from './../../src/client/js/components/basic/toggle';
+import Toggle from './../../src/client/js/components/toggle/toggle';
 
-storiesOf('Basic', module)
+storiesOf('Toogle', module)
   .add('Toggle active', 
     withInfo()( () => {
       return <Toggle 

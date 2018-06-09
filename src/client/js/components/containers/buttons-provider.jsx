@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import {getItems} from './../../actions/items-actions';
 
-import Buttons from './../basic/buttons';
+import Buttons from './../button/buttons';
 
 const mapStateToProps = state => {
   return {};

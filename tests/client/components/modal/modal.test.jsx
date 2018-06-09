@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {mount, shallow} from 'enzyme';
 import Modal, {
   ModalElement
-} from './../../../../src/client/js/components/basic/modal';
+} from './../../../../src/client/js/components/modal/modal';
 import renderer from 'react-test-renderer';
 
 const TestChild = () => {

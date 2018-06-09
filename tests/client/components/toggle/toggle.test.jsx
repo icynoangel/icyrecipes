@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {shallow} from 'enzyme';
-import Toggle from './../../../../src/client/js/components/basic/toggle';
+import Toggle from './../../../../src/client/js/components/toggle/toggle';
 import renderer from 'react-test-renderer';
 
 describe('<Toggle />', function() {

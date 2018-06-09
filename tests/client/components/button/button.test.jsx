@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {shallow} from 'enzyme';
-import Button from './../../../../src/client/js/components/basic/button';
+import Button from './../../../../src/client/js/components/button/button';
 import renderer from 'react-test-renderer';
 
 describe('<Button />', function() {

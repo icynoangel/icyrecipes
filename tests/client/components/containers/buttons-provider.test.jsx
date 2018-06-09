@@ -4,7 +4,7 @@ import {mount} from 'enzyme';
 import React from 'react';
 
 import ButtonsProvider from '../../../../src/client/js/components/containers/buttons-provider';
-import Buttons from '../../../../src/client/js/components/basic/buttons';
+import Buttons from '../../../../src/client/js/components/button/buttons';
 import appInitialState from '../../../../src/client/js/app-state/app-initial-state';
 
 import {getItems} from '../../../../src/client/js/actions/items-actions';

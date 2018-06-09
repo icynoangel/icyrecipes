@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Buttons from './../../../../src/client/js/components/basic/buttons';
-import Button from './../../../../src/client/js/components/basic/button';
-import Modal from './../../../../src/client/js/components/basic/modal';
+import Buttons from './../../../../src/client/js/components/button/buttons';
+import Button from './../../../../src/client/js/components/button/button';
+import Modal from './../../../../src/client/js/components/modal/modal';
 import {mount} from 'enzyme';
 import renderer from 'react-test-renderer';
 

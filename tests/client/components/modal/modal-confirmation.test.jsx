@@ -1,7 +1,7 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
-import Button from './../../../../src/client/js/components/basic/button';
-import ModalConfirmation from './../../../../src/client/js/components/basic/modal-confirmation';
+import Button from './../../../../src/client/js/components/button/button';
+import ModalConfirmation from './../../../../src/client/js/components/modal/modal-confirmation';
 import renderer from 'react-test-renderer';
 
 describe('<ModalConfirmation />', function() {

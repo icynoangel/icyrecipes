@@ -10,10 +10,10 @@ import '../stories/styles/colors.stories.js';
 import '../stories/styles/fonts.stories.js';
 import '../stories/styles/typography.stories.js';
 
-import '../stories/basic/button.stories.js';
-import '../stories/basic/buttons.stories.js';
-import '../stories/basic/modal-confirmation.stories.js';
-import '../stories/basic/toggle.stories.js';
+import '../stories/button/button.stories.js';
+import '../stories/button/buttons.stories.js';
+import '../stories/modal/modal-confirmation.stories.js';
+import '../stories/toggle/toggle.stories.js';
 
 import '../stories/items/item.stories.js';
 import '../stories/items/items.stories.js';

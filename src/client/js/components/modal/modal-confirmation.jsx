@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import Button from './button';
+import Button from '../button/button';
 
 class ModalConfirmation extends Component {
   static propTypes = {
