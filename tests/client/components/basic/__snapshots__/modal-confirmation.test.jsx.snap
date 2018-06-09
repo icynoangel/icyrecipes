@@ -16,21 +16,13 @@ exports[`<ModalConfirmation /> Should render ModalConfirmation 1`] = `
       className="button --primary"
       onClick={[Function]}
     >
-      <span
-        className="button__caption"
-      >
-        Confirm
-      </span>
+      Confirm
     </button>
     <button
       className="button --secondary"
       onClick={[Function]}
     >
-      <span
-        className="button__caption"
-      >
-        Deny
-      </span>
+      Deny
     </button>
   </div>
 </div>

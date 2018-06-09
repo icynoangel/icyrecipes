@@ -13,7 +13,7 @@ class Button extends Component {
 
     return (
       <button className={`button ${modifier}`} onClick={this.props.onClick}>
-        <span className="button__caption">{this.props.caption}</span>
+        {this.props.caption}
       </button>
     );
   }

@@ -5,11 +5,7 @@ exports[`<Button /> Should render a primary Button 1`] = `
   className="button --primary"
   onClick={[MockFunction]}
 >
-  <span
-    className="button__caption"
-  >
-    Get Items
-  </span>
+  Get Items
 </button>
 `;
 
@@ -18,10 +14,6 @@ exports[`<Button /> Should render a secondary Button 1`] = `
   className="button --secondary"
   onClick={[MockFunction]}
 >
-  <span
-    className="button__caption"
-  >
-    Get Items
-  </span>
+  Get Items
 </button>
 `;

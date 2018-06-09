@@ -56,7 +56,22 @@ class ModalConfirmationStory extends Component {
 }
 
 storiesOf('Basic', module)
-  .add('Modal confirmation', () => { 
-    return <ModalConfirmationStory />;
-  });
+  .add('Modal confirmation', 
+    withInfo({
+      text: `Markup of Modal component
+
+        <Modal ref="confirmationModal">
+          <ModalConfirmation 
+            description="Please confirm or deny"
+            onConfirm={this.onConfirm}
+            onDeny={this.onDeny} />
+        </Modal>
+      `,
+      source: false,
+      propTables: [Modal, ModalConfirmation],
+      propTablesExclude: [ModalConfirmationStory],
+    })( () => {
+      return <ModalConfirmationStory />;
+    }) 
+  );
 

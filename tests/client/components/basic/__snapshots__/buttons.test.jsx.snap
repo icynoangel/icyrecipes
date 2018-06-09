@@ -8,21 +8,13 @@ exports[`<Buttons /> Should render <Buttons />, <Modal /> and <ModalConfirmation
     className="button --primary"
     onClick={[MockFunction]}
   >
-    <span
-      className="button__caption"
-    >
-      Get Items
-    </span>
+    Get Items
   </button>
   <button
     className="button --primary"
     onClick={[Function]}
   >
-    <span
-      className="button__caption"
-    >
-      Open Modal
-    </span>
+    Open Modal
   </button>
 </div>
 `;
