@@ -13,6 +13,7 @@ import '../stories/styles/typography.stories.js';
 import '../stories/basic/button.stories.js';
 import '../stories/basic/buttons.stories.js';
 import '../stories/basic/modal-confirmation.stories.js';
+import '../stories/basic/toggle.stories.js';
 
 import '../stories/items/item.stories.js';
 import '../stories/items/items.stories.js';

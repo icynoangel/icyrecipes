@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toggle /> Should render <Toggle /> 1`] = `
+<div
+  className="toggle"
+  onClick={[Function]}
+>
+  <div
+    className="toggle__toggle-button"
+  >
+    <div
+      className="toggle__toggle-button__slider"
+    />
+  </div>
+  <div
+    className="toggle__label"
+  >
+    Toggle
+  </div>
+</div>
+`;
+
+exports[`<Toggle /> Should render a checked <Toggle /> 1`] = `
+<div
+  className="toggle --checked"
+  onClick={[Function]}
+>
+  <div
+    className="toggle__toggle-button"
+  >
+    <div
+      className="toggle__toggle-button__slider"
+    />
+  </div>
+  <div
+    className="toggle__label"
+  >
+    Toggle
+  </div>
+</div>
+`;
+
+exports[`<Toggle /> Should render a checked and disabled <Toggle /> 1`] = `
+<div
+  className="toggle --checked --disabled"
+  onClick={[Function]}
+>
+  <div
+    className="toggle__toggle-button"
+  >
+    <div
+      className="toggle__toggle-button__slider"
+    />
+  </div>
+  <div
+    className="toggle__label"
+  >
+    Toggle
+  </div>
+</div>
+`;
+
+exports[`<Toggle /> Should render a disabled <Toggle /> 1`] = `
+<div
+  className="toggle --disabled"
+  onClick={[Function]}
+>
+  <div
+    className="toggle__toggle-button"
+  >
+    <div
+      className="toggle__toggle-button__slider"
+    />
+  </div>
+  <div
+    className="toggle__label"
+  >
+    Toggle
+  </div>
+</div>
+`;
