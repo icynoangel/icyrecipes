@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> Should open dropdown 1`] = `
+<Dropdown
+  items={
+    Array [
+      Object {
+        "label": "Select option 1",
+        "value": "opt_1",
+      },
+      Object {
+        "label": "Select option 2",
+        "value": "opt_2",
+      },
+      Object {
+        "label": "Select option 3",
+        "value": "opt_3",
+      },
+      Object {
+        "label": "Select option 4",
+        "value": "opt_4",
+      },
+    ]
+  }
+  onChange={[MockFunction]}
+  placeholder="Custom select"
+>
+  <div
+    className="dropdown --open"
+  >
+    <div
+      className="dropdown__control"
+      onClick={[Function]}
+    >
+      <div
+        className="dropdown__control__select"
+      >
+        Custom select
+      </div>
+      <div
+        className="dropdown__control__arrow"
+      />
+    </div>
+    <div
+      className="dropdown__content"
+    >
+      <div
+        className="dropdown__content__option"
+        key="dropdown-option-opt_1"
+        onClick={[Function]}
+      >
+        Select option 1
+      </div>
+      <div
+        className="dropdown__content__option"
+        key="dropdown-option-opt_2"
+        onClick={[Function]}
+      >
+        Select option 2
+      </div>
+      <div
+        className="dropdown__content__option"
+        key="dropdown-option-opt_3"
+        onClick={[Function]}
+      >
+        Select option 3
+      </div>
+      <div
+        className="dropdown__content__option"
+        key="dropdown-option-opt_4"
+        onClick={[Function]}
+      >
+        Select option 4
+      </div>
+    </div>
+  </div>
+</Dropdown>
+`;
+
+exports[`<Dropdown /> Should render <Dropdown /> with default selected value 1`] = `
+<Dropdown
+  items={
+    Array [
+      Object {
+        "label": "Select option 1",
+        "value": "opt_1",
+      },
+      Object {
+        "label": "Select option 2",
+        "value": "opt_2",
+      },
+      Object {
+        "label": "Select option 3",
+        "value": "opt_3",
+      },
+      Object {
+        "label": "Select option 4",
+        "value": "opt_4",
+      },
+      Object {
+        "label": "Select option 5",
+        "selected": true,
+        "value": "opt_5",
+      },
+    ]
+  }
+  onChange={[MockFunction]}
+  placeholder="Custom select"
+>
+  <div
+    className="dropdown --open"
+  >
+    <div
+      className="dropdown__control"
+      onClick={[Function]}
+    >
+      <div
+        className="dropdown__control__select"
+      >
+        Select option 5
+      </div>
+      <div
+        className="dropdown__control__arrow"
+      />
+    </div>
+    <div
+      className="dropdown__content"
+    >
+      <div
+        className="dropdown__content__option"
+        key="dropdown-option-opt_1"
+        onClick={[Function]}
+      >
+        Select option 1
+      </div>
+      <div
+        className="dropdown__content__option"
+        key="dropdown-option-opt_2"
+        onClick={[Function]}
+      >
+        Select option 2
+      </div>
+      <div
+        className="dropdown__content__option"
+        key="dropdown-option-opt_3"
+        onClick={[Function]}
+      >
+        Select option 3
+      </div>
+      <div
+        className="dropdown__content__option"
+        key="dropdown-option-opt_4"
+        onClick={[Function]}
+      >
+        Select option 4
+      </div>
+      <div
+        className="dropdown__content__option --selected"
+        key="dropdown-option-opt_5"
+        onClick={[Function]}
+      >
+        Select option 5
+      </div>
+    </div>
+  </div>
+</Dropdown>
+`;
+
+exports[`<Dropdown /> Should render closed <Dropdown /> 1`] = `
+<div
+  className="dropdown"
+>
+  <div
+    className="dropdown__control"
+    onClick={[Function]}
+  >
+    <div
+      className="dropdown__control__select"
+    >
+      Custom select
+    </div>
+    <div
+      className="dropdown__control__arrow"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Dropdown /> Should select a value and call onChange 1`] = `
+<Dropdown
+  items={
+    Array [
+      Object {
+        "label": "Select option 1",
+        "value": "opt_1",
+      },
+      Object {
+        "label": "Select option 2",
+        "value": "opt_2",
+      },
+      Object {
+        "label": "Select option 3",
+        "value": "opt_3",
+      },
+      Object {
+        "label": "Select option 4",
+        "value": "opt_4",
+      },
+    ]
+  }
+  onChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "opt_3",
+        ],
+      ],
+    }
+  }
+  placeholder="Custom select"
+>
+  <div
+    className="dropdown"
+  >
+    <div
+      className="dropdown__control"
+      onClick={[Function]}
+    >
+      <div
+        className="dropdown__control__select"
+      >
+        Select option 3
+      </div>
+      <div
+        className="dropdown__control__arrow"
+      />
+    </div>
+  </div>
+</Dropdown>
+`;
