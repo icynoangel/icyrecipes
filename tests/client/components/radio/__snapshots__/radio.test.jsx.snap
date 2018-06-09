@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radio /> Should render <Radio /> 1`] = `
+<div
+  className="radio"
+  onClick={[Function]}
+>
+  <div
+    className="radio__button"
+  >
+    <div
+      className="radio__button__checked"
+    />
+  </div>
+  <div
+    className="radio__label"
+  >
+    Radio Button
+  </div>
+</div>
+`;
+
+exports[`<Radio /> Should render a checked <Radio /> 1`] = `
+<div
+  className="radio --checked"
+  onClick={[Function]}
+>
+  <div
+    className="radio__button"
+  >
+    <div
+      className="radio__button__checked"
+    />
+  </div>
+  <div
+    className="radio__label"
+  >
+    Radio Button
+  </div>
+</div>
+`;
+
+exports[`<Radio /> Should render a checked and disabled <Radio /> 1`] = `
+<div
+  className="radio --checked --disabled"
+  onClick={[Function]}
+>
+  <div
+    className="radio__button"
+  >
+    <div
+      className="radio__button__checked"
+    />
+  </div>
+  <div
+    className="radio__label"
+  >
+    Radio Button
+  </div>
+</div>
+`;
+
+exports[`<Radio /> Should render a disabled <Radio /> 1`] = `
+<div
+  className="radio --disabled"
+  onClick={[Function]}
+>
+  <div
+    className="radio__button"
+  >
+    <div
+      className="radio__button__checked"
+    />
+  </div>
+  <div
+    className="radio__label"
+  >
+    Radio Button
+  </div>
+</div>
+`;

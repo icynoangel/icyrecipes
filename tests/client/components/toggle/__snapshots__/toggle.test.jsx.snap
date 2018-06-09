@@ -15,7 +15,7 @@ exports[`<Toggle /> Should render <Toggle /> 1`] = `
   <div
     className="toggle__label"
   >
-    Toggle
+    Toggle Button
   </div>
 </div>
 `;
@@ -35,7 +35,7 @@ exports[`<Toggle /> Should render a checked <Toggle /> 1`] = `
   <div
     className="toggle__label"
   >
-    Toggle
+    Toggle Button
   </div>
 </div>
 `;
@@ -55,7 +55,7 @@ exports[`<Toggle /> Should render a checked and disabled <Toggle /> 1`] = `
   <div
     className="toggle__label"
   >
-    Toggle
+    Toggle Button
   </div>
 </div>
 `;
@@ -75,7 +75,7 @@ exports[`<Toggle /> Should render a disabled <Toggle /> 1`] = `
   <div
     className="toggle__label"
   >
-    Toggle
+    Toggle Button
   </div>
 </div>
 `;

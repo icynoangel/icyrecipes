@@ -15,6 +15,9 @@ import '../stories/button/buttons.stories.js';
 import '../stories/modal/modal-confirmation.stories.js';
 import '../stories/toggle/toggle.stories.js';
 
+import '../stories/radio/radio.stories.js';
+import '../stories/radio/radio-group.stories.js';
+
 import '../stories/items/item.stories.js';
 import '../stories/items/items.stories.js';
 

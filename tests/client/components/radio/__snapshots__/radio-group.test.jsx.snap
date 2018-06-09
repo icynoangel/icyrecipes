@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioGroup /> Should render <RadioGroup /> 1`] = `
+<div
+  className="radio-group"
+>
+  <div
+    className="radio-group__label"
+  >
+    Radio Group
+  </div>
+  <div
+    className="radio-group__content"
+  >
+    <div
+      className="radio --checked"
+      onClick={[Function]}
+    >
+      <div
+        className="radio__button"
+      >
+        <div
+          className="radio__button__checked"
+        />
+      </div>
+      <div
+        className="radio__label"
+      >
+        Radio option 1
+      </div>
+    </div>
+    <div
+      className="radio"
+      onClick={[Function]}
+    >
+      <div
+        className="radio__button"
+      >
+        <div
+          className="radio__button__checked"
+        />
+      </div>
+      <div
+        className="radio__label"
+      >
+        Radio option 2
+      </div>
+    </div>
+    <div
+      className="radio --disabled"
+      onClick={[Function]}
+    >
+      <div
+        className="radio__button"
+      >
+        <div
+          className="radio__button__checked"
+        />
+      </div>
+      <div
+        className="radio__label"
+      >
+        Radio option 3
+      </div>
+    </div>
+  </div>
+</div>
+`;

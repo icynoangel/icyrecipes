@@ -2,64 +2,51 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-class Toggle extends Component {
+class Radio extends Component {
   static propTypes = {
     onClick: PropTypes.func.isRequired,
     label: PropTypes.string.isRequired,
+    value: PropTypes.any.isRequired,
     checked: PropTypes.bool,
     disabled: PropTypes.bool
   };
 
   static defaultProps = {
-    label: 'Toggle',
+    label: 'Radio option',
     checked: false,
     disabled: false
   };
 
-  static getDerivedStateFromProps(props) {
-    return {
-      checked: props.checked
-    };
-  }
-
   constructor(props) {
     super(props);
 
-    this.state = {
-      checked: props.checked
-    };
     this.onClick = this.onClick.bind(this);
   }
 
   onClick() {
     if (!this.props.disabled) {
-      this.setState(
-        {
-          checked: !this.state.checked
-        },
-        () => {
-          this.props.onClick(this.state.checked);
-        }
-      );
+      if (!this.props.checked) {
+        this.props.onClick(this.props.value);
+      }
     }
   }
 
   render() {
     const classes = classNames({
-      toggle: true,
-      '--checked': this.state.checked,
+      radio: true,
+      '--checked': this.props.checked,
       '--disabled': this.props.disabled
     });
 
     return (
       <div className={classes} onClick={this.onClick}>
-        <div className="toggle__toggle-button">
-          <div className="toggle__toggle-button__slider" />
+        <div className="radio__button">
+          <div className="radio__button__checked" />
         </div>
-        <div className="toggle__label">{this.props.label}</div>
+        <div className="radio__label">{this.props.label}</div>
       </div>
     );
   }
 }
 
-export default Toggle;
+export default Radio;

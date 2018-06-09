@@ -18,7 +18,7 @@ describe('<Toggle />', function() {
 
   beforeEach(() => {
     this.onClick = jest.fn();
-    this.caption = 'Toggle Button';
+    this.label = 'Toggle Button';
   });
 
   it('Should render <Toggle />', () => {

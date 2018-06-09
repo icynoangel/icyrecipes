@@ -68,7 +68,7 @@ $toggle-button-slider-border-color: $alto;
 $toggle-button-slider-border-radius: 1.2rem;
 
 $toggle-button-slider-bg-color: $boulder;
-$toggle-button-slider-bg-color-enabled: $harlequin;
+$toggle-button-slider-bg-color-checked: $harlequin;
 
 $toggle-button-label-color: $mine-shaft;
 
@@ -109,7 +109,7 @@ $toggle-button-label-color: $mine-shaft;
   @include option(checked) {
     @include part(toggle-button) {
       @include part(slider) {
-        background-color: $toggle-button-slider-bg-color-enabled;
+        background-color: $toggle-button-slider-bg-color-checked;
         left: $toggle-button-slider-width - 0.2rem;
       }
     }
@@ -117,15 +117,6 @@ $toggle-button-label-color: $mine-shaft;
 
   @include option(disabled) {
     cursor: not-allowed;
-
-    @include part(toggle-button) {
-      @include part(slider) {
-        opacity: 0.5;
-      }
-    }
-
-    @include part(label) {
-      opacity: 0.5;
-    }
+    opacity: 0.5;
   }
 }
