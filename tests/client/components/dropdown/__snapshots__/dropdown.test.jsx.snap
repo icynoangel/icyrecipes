@@ -24,9 +24,11 @@ exports[`<Dropdown /> Should open dropdown 1`] = `
   }
   onChange={[MockFunction]}
   placeholder="Custom select"
+  type="medium"
+  width=""
 >
   <div
-    className="dropdown --open"
+    className="dropdown --open --medium"
   >
     <div
       className="dropdown__control"
@@ -106,9 +108,11 @@ exports[`<Dropdown /> Should render <Dropdown /> with default selected value 1`]
   }
   onChange={[MockFunction]}
   placeholder="Custom select"
+  type="medium"
+  width=""
 >
   <div
-    className="dropdown --open"
+    className="dropdown --open --medium"
   >
     <div
       className="dropdown__control"
@@ -166,24 +170,145 @@ exports[`<Dropdown /> Should render <Dropdown /> with default selected value 1`]
 </Dropdown>
 `;
 
-exports[`<Dropdown /> Should render closed <Dropdown /> 1`] = `
-<div
-  className="dropdown"
+exports[`<Dropdown /> Should render auto <Dropdown /> 1`] = `
+<Dropdown
+  items={
+    Array [
+      Object {
+        "label": "Select option 1",
+        "value": "opt_1",
+      },
+      Object {
+        "label": "Select option 2",
+        "value": "opt_2",
+      },
+      Object {
+        "label": "Select option 3",
+        "value": "opt_3",
+      },
+      Object {
+        "label": "Select option 4",
+        "value": "opt_4",
+      },
+    ]
+  }
+  onChange={[MockFunction]}
+  placeholder="Custom select"
+  type="medium"
+  width="auto"
 >
   <div
-    className="dropdown__control"
-    onClick={[Function]}
+    className="dropdown --medium --auto"
   >
     <div
-      className="dropdown__control__select"
+      className="dropdown__control"
+      onClick={[Function]}
     >
-      Custom select
+      <div
+        className="dropdown__control__select"
+      >
+        Custom select
+      </div>
+      <div
+        className="dropdown__control__arrow"
+      />
     </div>
-    <div
-      className="dropdown__control__arrow"
-    />
   </div>
-</div>
+</Dropdown>
+`;
+
+exports[`<Dropdown /> Should render closed <Dropdown /> 1`] = `
+<Dropdown
+  items={
+    Array [
+      Object {
+        "label": "Select option 1",
+        "value": "opt_1",
+      },
+      Object {
+        "label": "Select option 2",
+        "value": "opt_2",
+      },
+      Object {
+        "label": "Select option 3",
+        "value": "opt_3",
+      },
+      Object {
+        "label": "Select option 4",
+        "value": "opt_4",
+      },
+    ]
+  }
+  onChange={[MockFunction]}
+  placeholder="Custom select"
+  type="medium"
+  width=""
+>
+  <div
+    className="dropdown --medium"
+  >
+    <div
+      className="dropdown__control"
+      onClick={[Function]}
+    >
+      <div
+        className="dropdown__control__select"
+      >
+        Custom select
+      </div>
+      <div
+        className="dropdown__control__arrow"
+      />
+    </div>
+  </div>
+</Dropdown>
+`;
+
+exports[`<Dropdown /> Should render tiny <Dropdown /> 1`] = `
+<Dropdown
+  items={
+    Array [
+      Object {
+        "label": "Select option 1",
+        "value": "opt_1",
+      },
+      Object {
+        "label": "Select option 2",
+        "value": "opt_2",
+      },
+      Object {
+        "label": "Select option 3",
+        "value": "opt_3",
+      },
+      Object {
+        "label": "Select option 4",
+        "value": "opt_4",
+      },
+    ]
+  }
+  onChange={[MockFunction]}
+  placeholder="Custom select"
+  type="tiny"
+  width=""
+>
+  <div
+    className="dropdown --tiny"
+  >
+    <div
+      className="dropdown__control"
+      onClick={[Function]}
+    >
+      <div
+        className="dropdown__control__select"
+      >
+        Custom select
+      </div>
+      <div
+        className="dropdown__control__arrow"
+      />
+    </div>
+  </div>
+</Dropdown>
 `;
 
 exports[`<Dropdown /> Should select a value and call onChange 1`] = `
@@ -218,9 +343,11 @@ exports[`<Dropdown /> Should select a value and call onChange 1`] = `
     }
   }
   placeholder="Custom select"
+  type="medium"
+  width=""
 >
   <div
-    className="dropdown"
+    className="dropdown --medium"
   >
     <div
       className="dropdown__control"

@@ -6,11 +6,15 @@ class Dropdown extends Component {
   static propTypes = {
     onChange: PropTypes.func.isRequired,
     placeholder: PropTypes.string,
+    type: PropTypes.string,
+    width: PropTypes.string, // --auto
     items: PropTypes.array.isRequired
   };
 
   static defaultProps = {
-    placeholder: 'Select...'
+    placeholder: 'Select...',
+    type: 'medium',
+    width: ''
   };
 
   static getDerivedStateFromProps(props) {
@@ -111,7 +115,9 @@ class Dropdown extends Component {
 
     const classes = classNames({
       dropdown: true,
-      '--open': this.state.isOpen
+      '--open': this.state.isOpen,
+      [`--${this.props.type}`]: true,
+      [`--${this.props.width}`]: this.props.width.length
     });
 
     return (

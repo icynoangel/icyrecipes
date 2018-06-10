@@ -56,6 +56,43 @@
 // Styleguide 7.3
 // 
 
+// Dropdown open - tiny
+//
+// Markup:
+// <div style="height: 150px">
+// <div class="dropdown --open --tiny">
+//  <div class="dropdown__control">
+//    <div class="dropdown__control__select">Second option</div>
+//    <div class="dropdown__control__arrow"></div>
+//  </div>
+//  <div class="dropdown__content">
+//    <div class="dropdown__content__option">First option</div>
+//    <div class="dropdown__content__option --selected">Second option</div>
+//  </div>
+// </div>
+// </div>
+//
+// Styleguide 7.4
+  
+// Dropdown tiny width auto
+//
+// Markup:
+// <div style="height: 150px; width: 20rem;">
+// <div class="dropdown --open --tiny --auto">
+//  <div class="dropdown__control">
+//    <div class="dropdown__control__select">Second option</div>
+//    <div class="dropdown__control__arrow"></div>
+//  </div>
+//  <div class="dropdown__content">
+//    <div class="dropdown__content__option">First option</div>
+//    <div class="dropdown__content__option --selected">Second option</div>
+//  </div>
+// </div>
+// </div>
+//
+// Styleguide 7.5
+// 
+
 $dropdown-border-color: $alto;
 $dropdown-background-color: $white;
 $dropdown-color: $mine-shaft;
@@ -65,6 +102,10 @@ $dropdown-arrow-border-width: 5px;
 $dropdown-height: 3rem;
 $dropdown-width: 40rem;
 $dropdown-padding: 0.8rem;
+
+$dropdown-tiny-height: 2rem;
+$dropdown-tiny-width: 18rem;
+$dropdown-tiny-padding: 0.2rem;
 
 $dropdown-bg-hover-color: $gallery; 
 $dropdown-bg-selected-color: $alto; 
@@ -86,11 +127,13 @@ $dropdown-bg-selected-color: $alto;
     cursor: pointer;
     flex-direction: row;
     justify-content: space-between;
+    overflow: hidden;
     padding: $dropdown-padding;
     position: relative;
 
     @include part(select) {
       line-height: $dropdown-height - ($dropdown-padding * 2);
+      white-space: nowrap;
     }
 
     @include part(arrow) {
@@ -129,7 +172,9 @@ $dropdown-bg-selected-color: $alto;
       cursor: pointer;
       height: $dropdown-height;
       line-height: $dropdown-height - ($dropdown-padding * 2);
+      overflow: hidden;
       padding: $dropdown-padding;
+      white-space: nowrap;
 
       @include option(selected) {
         background-color: $dropdown-bg-selected-color;
@@ -148,6 +193,39 @@ $dropdown-bg-selected-color: $alto;
         border-width: 0 $dropdown-arrow-border-width $dropdown-arrow-border-width;
       }
     }
+  }
+
+  @include option(tiny) {
+
+    width: $dropdown-tiny-width;
+
+    @include part(control) {
+      padding: $dropdown-tiny-padding;
+
+      @include part(select) {
+        line-height: $dropdown-tiny-height - ($dropdown-tiny-padding * 2);
+      }
+
+      @include part(arrow) {
+        margin-top: 0rem;
+      }
+    }
+
+    @include part(content) {
+    
+      max-height: 16rem;
+      top: $dropdown-tiny-height + 0.2rem; // this is weird
+    
+      @include part(option) {
+        height: $dropdown-tiny-height;
+        line-height: $dropdown-tiny-height - ($dropdown-tiny-padding * 2);
+        padding: $dropdown-tiny-padding;
+      }
+    }
+  }
+
+  @include option(auto) {
+    width: auto;
   }
 
 }

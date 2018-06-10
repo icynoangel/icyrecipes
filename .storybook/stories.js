@@ -19,6 +19,7 @@ import '../stories/radio/radio.stories.js';
 import '../stories/radio/radio-group.stories.js';
 
 import '../stories/dropdown/dropdown.stories.js';
+import '../stories/datepicker/datepicker.stories.js';
 
 import '../stories/items/item.stories.js';
 import '../stories/items/items.stories.js';

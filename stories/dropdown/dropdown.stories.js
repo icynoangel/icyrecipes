@@ -39,6 +39,22 @@ const itemsOneSelected = [
   }  
 ];
 
+const itemsTiny = [
+  {
+    label: '2018',
+    value: 2018
+  },{
+    label: '2019',
+    value: 2019
+  },{
+    label: '2020',
+    value: 2020
+  },{
+    label: '2021',
+    value: 2021
+  }  
+];
+
 storiesOf('Dropdown', module)
   .add('Dropdown no default selected', 
     withInfo()( () => {
@@ -54,6 +70,25 @@ storiesOf('Dropdown', module)
         onChange={action('onChange')} 
         placeholder="Custom select..."
         items={itemsOneSelected}
+      />;
+    })
+  ).add('Dropdown tiny', 
+    withInfo()( () => {
+      return <Dropdown 
+        onChange={action('onChange')} 
+        placeholder="Custom select..."
+        type="tiny"
+        items={itemsOneSelected}
+      />;
+    })
+  ).add('Dropdown tiny width auto', 
+    withInfo()( () => {
+      return <Dropdown 
+        onChange={action('onChange')} 
+        placeholder="Year"
+        type="tiny"
+        width="auto"
+        items={itemsTiny}
       />;
     })
   );

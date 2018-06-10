@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {mount} from 'enzyme';
 import Dropdown from './../../../../src/client/js/components/dropdown/dropdown';
-import renderer from 'react-test-renderer';
 import enzymeToJson from 'enzyme-to-json';
 
 describe('<Dropdown />', function() {
-  this.getComponent = (items = this.items) => {
+  this.getComponent = (items = this.items, type = 'medium', width = '') => {
     return (
       <Dropdown
         onChange={this.onChange}
         placeholder={this.placeholder}
+        type={type}
+        width={width}
         items={items}
       />
     );
@@ -41,8 +42,18 @@ describe('<Dropdown />', function() {
   });
 
   it('Should render closed <Dropdown />', () => {
-    const dropdown = renderer.create(this.getComponent()).toJSON();
-    expect(dropdown).toMatchSnapshot();
+    const wrapper = mount(this.getComponent());
+    expect(enzymeToJson(wrapper)).toMatchSnapshot();
+  });
+
+  it('Should render tiny <Dropdown />', () => {
+    const wrapper = mount(this.getComponent(this.items, 'tiny'));
+    expect(enzymeToJson(wrapper)).toMatchSnapshot();
+  });
+
+  it('Should render auto <Dropdown />', () => {
+    const wrapper = mount(this.getComponent(this.items, 'medium', 'auto'));
+    expect(enzymeToJson(wrapper)).toMatchSnapshot();
   });
 
   it('Should render <Dropdown /> with default selected value', () => {

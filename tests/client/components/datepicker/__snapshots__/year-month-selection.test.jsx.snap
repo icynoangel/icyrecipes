@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<YearMonthSelection /> Should render <YearMonthSelection /> 1`] = `
+<YearMonthSelection
+  fromMonth={2014-01-31T22:00:00.000Z}
+  onChange={[MockFunction]}
+  selectedDay={2018-06-09T21:00:00.000Z}
+  toMonth={2018-11-30T22:00:00.000Z}
+>
+  <div
+    className="DayPicker-Caption"
+  >
+    <div
+      className="datepicker__month"
+    >
+      <Dropdown
+        items={
+          Array [
+            Object {
+              "label": "January",
+              "selected": false,
+              "value": 0,
+            },
+            Object {
+              "label": "February",
+              "selected": false,
+              "value": 1,
+            },
+            Object {
+              "label": "March",
+              "selected": false,
+              "value": 2,
+            },
+            Object {
+              "label": "April",
+              "selected": false,
+              "value": 3,
+            },
+            Object {
+              "label": "May",
+              "selected": false,
+              "value": 4,
+            },
+            Object {
+              "label": "June",
+              "selected": true,
+              "value": 5,
+            },
+            Object {
+              "label": "July",
+              "selected": false,
+              "value": 6,
+            },
+            Object {
+              "label": "August",
+              "selected": false,
+              "value": 7,
+            },
+            Object {
+              "label": "September",
+              "selected": false,
+              "value": 8,
+            },
+            Object {
+              "label": "October",
+              "selected": false,
+              "value": 9,
+            },
+            Object {
+              "label": "November",
+              "selected": false,
+              "value": 10,
+            },
+            Object {
+              "label": "December",
+              "selected": false,
+              "value": 11,
+            },
+          ]
+        }
+        onChange={[Function]}
+        placeholder="Month"
+        type="tiny"
+        width="auto"
+      >
+        <div
+          className="dropdown --tiny --auto"
+        >
+          <div
+            className="dropdown__control"
+            onClick={[Function]}
+          >
+            <div
+              className="dropdown__control__select"
+            >
+              June
+            </div>
+            <div
+              className="dropdown__control__arrow"
+            />
+          </div>
+        </div>
+      </Dropdown>
+    </div>
+    <div
+      className="datepicker__year"
+    >
+      <Dropdown
+        items={
+          Array [
+            Object {
+              "label": 2014,
+              "selected": false,
+              "value": 2014,
+            },
+            Object {
+              "label": 2015,
+              "selected": false,
+              "value": 2015,
+            },
+            Object {
+              "label": 2016,
+              "selected": false,
+              "value": 2016,
+            },
+            Object {
+              "label": 2017,
+              "selected": false,
+              "value": 2017,
+            },
+            Object {
+              "label": 2018,
+              "selected": true,
+              "value": 2018,
+            },
+          ]
+        }
+        onChange={[Function]}
+        placeholder="Year"
+        type="tiny"
+        width="auto"
+      >
+        <div
+          className="dropdown --tiny --auto"
+        >
+          <div
+            className="dropdown__control"
+            onClick={[Function]}
+          >
+            <div
+              className="dropdown__control__select"
+            >
+              2018
+            </div>
+            <div
+              className="dropdown__control__arrow"
+            />
+          </div>
+        </div>
+      </Dropdown>
+    </div>
+  </div>
+</YearMonthSelection>
+`;
