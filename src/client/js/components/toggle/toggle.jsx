@@ -16,12 +16,6 @@ class Toggle extends Component {
     disabled: false
   };
 
-  static getDerivedStateFromProps(props) {
-    return {
-      checked: props.checked
-    };
-  }
-
   constructor(props) {
     super(props);
 
@@ -34,8 +28,10 @@ class Toggle extends Component {
   onClick() {
     if (!this.props.disabled) {
       this.setState(
-        {
-          checked: !this.state.checked
+        prevState => {
+          return {
+            checked: !prevState.checked
+          };
         },
         () => {
           this.props.onClick(this.state.checked);
@@ -59,6 +55,14 @@ class Toggle extends Component {
         <div className="toggle__label">{this.props.label}</div>
       </div>
     );
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.checked !== prevProps.checked) {
+      this.setState({
+        checked: this.props.checked
+      });
+    }
   }
 }
 

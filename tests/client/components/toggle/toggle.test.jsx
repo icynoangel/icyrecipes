@@ -58,4 +58,18 @@ describe('<Toggle />', function() {
     expect(this.onClick).not.toHaveBeenCalled();
     expect(wrapper.state('checked')).toBe(false);
   });
+
+  it('Should set checked state based on new props', () => {
+    const wrapper = shallow(this.getComponent(!'checked', !!'disabled'));
+    wrapper.setProps({checked: true});
+
+    expect(wrapper.state('checked')).toBe(true);
+  });
+
+  it('Should not set checked state if new checked prop is the same', () => {
+    const wrapper = shallow(this.getComponent(!'checked', !!'disabled'));
+    wrapper.setProps({checked: false});
+
+    expect(wrapper.state('checked')).toBe(false);
+  });
 });

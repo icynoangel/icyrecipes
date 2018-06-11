@@ -17,23 +17,15 @@ class Dropdown extends Component {
     width: ''
   };
 
-  static getDerivedStateFromProps(props) {
+  constructor(props) {
+    super(props);
+
     const selected = props.items.find(item => {
       return item.selected;
     });
 
-    if (selected) {
-      return {
-        selected: selected.value
-      };
-    }
-    return null;
-  }
-
-  constructor(props) {
-    super(props);
     this.state = {
-      selected: '',
+      selected: selected ? selected.value : '',
       isOpen: false
     };
 
@@ -133,6 +125,24 @@ class Dropdown extends Component {
 
   componentDidMount() {
     this.addListeners();
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.items !== prevProps.items) {
+      const selected = this.props.items.find(item => {
+        return item.selected;
+      });
+
+      if (selected) {
+        this.setState({
+          selected: selected.value
+        });
+      } else {
+        this.setState({
+          selected: ''
+        });
+      }
+    }
   }
 
   componentWillUnmount() {
