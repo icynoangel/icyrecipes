@@ -11,7 +11,10 @@ describe('<Datepicker />', function() {
 
   it('Should render <Datepicker />', () => {
     const wrapper = mount(
-      <DatePicker onSelect={this.onSelect} selectedDay={new Date(2018, 3, 5)} />
+      <DatePicker
+        onSelect={this.onSelect}
+        selectedDay={new Date(Date.UTC(2018, 3, 5))}
+      />
     );
     wrapper.find('input').simulate('focus');
     expect(enzymeToJson(wrapper)).toMatchSnapshot();
@@ -21,7 +24,7 @@ describe('<Datepicker />', function() {
     const wrapper = mount(
       <DatePicker
         onSelect={this.onSelect}
-        selectedDay={new Date(2018, 3, 5)}
+        selectedDay={new Date(Date.UTC(2018, 3, 5))}
         startYear={2014}
         endYear={2020}
       />
@@ -34,7 +37,7 @@ describe('<Datepicker />', function() {
     const wrapper = mount(
       <DatePicker
         onSelect={this.onSelect}
-        selectedDay={new Date(2018, 3, 5)}
+        selectedDay={new Date(Date.UTC(2018, 3, 5))}
         startYear={2014}
         endYear={2020}
         showYearMonthSelection={false}
@@ -47,13 +50,13 @@ describe('<Datepicker />', function() {
     const wrapper = mount(
       <DatePicker
         onSelect={this.onSelect}
-        selectedDay={new Date(2018, 3, 5)}
+        selectedDay={new Date(Date.UTC(2018, 3, 5))}
         startYear={2014}
         endYear={2020}
         disabledDays={[
           {
-            from: new Date(2018, 3, 12),
-            to: new Date(2018, 3, 16)
+            from: new Date(Date.UTC(2018, 3, 12)),
+            to: new Date(Date.UTC(2018, 3, 16))
           }
         ]}
       />
@@ -66,7 +69,7 @@ describe('<Datepicker />', function() {
     const wrapper = mount(
       <DatePicker
         onSelect={this.onSelect}
-        selectedDay={new Date(2018, 3, 5)}
+        selectedDay={new Date(Date.UTC(2018, 3, 5))}
         startYear={2014}
         endYear={2020}
       />
@@ -84,13 +87,13 @@ describe('<Datepicker />', function() {
     const wrapper = mount(
       <DatePicker
         onSelect={this.onSelect}
-        selectedDay={new Date(2018, 3, 5)}
+        selectedDay={new Date(Date.UTC(2018, 3, 5))}
         startYear={2014}
         endYear={2020}
         disabledDays={[
           {
-            from: new Date(2018, 3, 12),
-            to: new Date(2018, 3, 16)
+            from: new Date(Date.UTC(2018, 3, 12)),
+            to: new Date(Date.UTC(2018, 3, 16))
           }
         ]}
       />
@@ -108,13 +111,13 @@ describe('<Datepicker />', function() {
     const wrapper = mount(
       <DatePicker
         onSelect={this.onSelect}
-        selectedDay={new Date(2018, 3, 5)}
+        selectedDay={new Date(Date.UTC(2018, 3, 5))}
         startYear={2014}
         endYear={2020}
         disabledDays={[
           {
-            from: new Date(2018, 3, 12),
-            to: new Date(2018, 3, 16)
+            from: new Date(Date.UTC(2018, 3, 12)),
+            to: new Date(Date.UTC(2018, 3, 16))
           }
         ]}
       />
@@ -128,26 +131,26 @@ describe('<Datepicker />', function() {
     const wrapper = mount(
       <DatePicker
         onSelect={this.onSelect}
-        selectedDay={new Date(2018, 3, 5)}
+        selectedDay={new Date(Date.UTC(2018, 3, 5))}
         startYear={2014}
         endYear={2020}
         disabledDays={[
           {
-            from: new Date(2018, 3, 12),
-            to: new Date(2018, 3, 16)
+            from: new Date(Date.UTC(2018, 3, 12)),
+            to: new Date(Date.UTC(2018, 3, 16))
           }
         ]}
       />
     );
 
-    const month = new Date(2018, 8, 1);
+    const month = new Date(Date.UTC(2018, 8, 1));
     wrapper.instance().onMonthYearChange(month);
 
     expect(wrapper.state('selectedMonth')).toEqual(month);
   });
 
   it('Should not update state if selectedDay is the same', () => {
-    const selectedDay = new Date(2018, 3, 5);
+    const selectedDay = new Date(Date.UTC(2018, 3, 5));
     const wrapper = mount(
       <DatePicker onSelect={this.onSelect} selectedDay={selectedDay} />
     );

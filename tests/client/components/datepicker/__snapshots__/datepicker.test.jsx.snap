@@ -13,7 +13,7 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
       ],
     }
   }
-  selectedDay={2018-04-04T21:00:00.000Z}
+  selectedDay={2018-04-05T00:00:00.000Z}
   showYearMonthSelection={true}
   startYear={2014}
 >
@@ -36,16 +36,16 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
           "captionElement": <YearMonthSelection
             fromMonth={2013-12-31T22:00:00.000Z}
             onChange={[Function]}
-            selectedDay={2018-04-04T21:00:00.000Z}
+            selectedDay={2018-04-05T00:00:00.000Z}
             toMonth={2020-11-30T22:00:00.000Z}
           />,
           "disabledDays": Array [],
           "fromMonth": 2013-12-31T22:00:00.000Z,
-          "initialMonth": 2018-04-04T21:00:00.000Z,
-          "month": 2018-04-04T21:00:00.000Z,
+          "initialMonth": 2018-04-05T00:00:00.000Z,
+          "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": 2018-04-04T21:00:00.000Z,
-          "selectedDays": 2018-04-04T21:00:00.000Z,
+          "selectedDay": 2018-04-05T00:00:00.000Z,
+          "selectedDays": 2018-04-05T00:00:00.000Z,
           "toMonth": 2020-11-30T22:00:00.000Z,
         }
       }
@@ -59,7 +59,7 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
       parseDate={[Function]}
       placeholder="06-11-2018"
       showOverlay={false}
-      value={2018-04-04T21:00:00.000Z}
+      value={2018-04-05T00:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -85,8 +85,8 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
   disabledDays={
     Array [
       Object {
-        "from": 2018-04-11T21:00:00.000Z,
-        "to": 2018-04-15T21:00:00.000Z,
+        "from": 2018-04-12T00:00:00.000Z,
+        "to": 2018-04-16T00:00:00.000Z,
       },
     ]
   }
@@ -100,7 +100,7 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
       ],
     }
   }
-  selectedDay={2018-04-04T21:00:00.000Z}
+  selectedDay={2018-04-05T00:00:00.000Z}
   showYearMonthSelection={true}
   startYear={2014}
 >
@@ -123,21 +123,21 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
           "captionElement": <YearMonthSelection
             fromMonth={2013-12-31T22:00:00.000Z}
             onChange={[Function]}
-            selectedDay={2018-04-04T21:00:00.000Z}
+            selectedDay={2018-04-05T00:00:00.000Z}
             toMonth={2020-11-30T22:00:00.000Z}
           />,
           "disabledDays": Array [
             Object {
-              "from": 2018-04-11T21:00:00.000Z,
-              "to": 2018-04-15T21:00:00.000Z,
+              "from": 2018-04-12T00:00:00.000Z,
+              "to": 2018-04-16T00:00:00.000Z,
             },
           ],
           "fromMonth": 2013-12-31T22:00:00.000Z,
-          "initialMonth": 2018-04-04T21:00:00.000Z,
-          "month": 2018-04-04T21:00:00.000Z,
+          "initialMonth": 2018-04-05T00:00:00.000Z,
+          "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": 2018-04-04T21:00:00.000Z,
-          "selectedDays": 2018-04-04T21:00:00.000Z,
+          "selectedDay": 2018-04-05T00:00:00.000Z,
+          "selectedDays": 2018-04-05T00:00:00.000Z,
           "toMonth": 2020-11-30T22:00:00.000Z,
         }
       }
@@ -151,7 +151,7 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
       parseDate={[Function]}
       placeholder="06-11-2018"
       showOverlay={false}
-      value={2018-04-04T21:00:00.000Z}
+      value={2018-04-05T00:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -177,7 +177,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
   disabledDays={Array []}
   endYear={2028}
   onSelect={[MockFunction]}
-  selectedDay={2018-04-04T21:00:00.000Z}
+  selectedDay={2018-04-05T00:00:00.000Z}
   showYearMonthSelection={true}
   startYear={1970}
 >
@@ -200,16 +200,16 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           "captionElement": <YearMonthSelection
             fromMonth={1969-12-31T22:00:00.000Z}
             onChange={[Function]}
-            selectedDay={2018-04-04T21:00:00.000Z}
+            selectedDay={2018-04-05T00:00:00.000Z}
             toMonth={2028-11-30T22:00:00.000Z}
           />,
           "disabledDays": Array [],
           "fromMonth": 1969-12-31T22:00:00.000Z,
-          "initialMonth": 2018-04-04T21:00:00.000Z,
-          "month": 2018-04-04T21:00:00.000Z,
+          "initialMonth": 2018-04-05T00:00:00.000Z,
+          "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": 2018-04-04T21:00:00.000Z,
-          "selectedDays": 2018-04-04T21:00:00.000Z,
+          "selectedDay": 2018-04-05T00:00:00.000Z,
+          "selectedDays": 2018-04-05T00:00:00.000Z,
           "toMonth": 2028-11-30T22:00:00.000Z,
         }
       }
@@ -223,7 +223,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
       parseDate={[Function]}
       placeholder="06-11-2018"
       showOverlay={false}
-      value={2018-04-04T21:00:00.000Z}
+      value={2018-04-05T00:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -255,7 +255,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           month={2018-04-04T21:00:00.000Z}
           onBlur={[Function]}
           onFocus={[Function]}
-          selectedDay={2018-04-04T21:00:00.000Z}
+          selectedDay={2018-04-05T00:00:00.000Z}
           tabIndex={0}
         >
           <div
@@ -273,7 +273,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                   <YearMonthSelection
                     fromMonth={1969-12-31T22:00:00.000Z}
                     onChange={[Function]}
-                    selectedDay={2018-04-04T21:00:00.000Z}
+                    selectedDay={2018-04-05T00:00:00.000Z}
                     toMonth={2028-11-30T22:00:00.000Z}
                   />
                 }
@@ -308,7 +308,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                 enableOutsideDaysClick={true}
                 fixedWeeks={false}
                 fromMonth={1969-12-31T22:00:00.000Z}
-                initialMonth={2018-04-04T21:00:00.000Z}
+                initialMonth={2018-04-05T00:00:00.000Z}
                 labels={
                   Object {
                     "nextMonth": "Next Month",
@@ -382,8 +382,8 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                 renderDay={[Function]}
                 renderWeek={[Function]}
                 reverseMonths={false}
-                selectedDay={2018-04-04T21:00:00.000Z}
-                selectedDays={2018-04-04T21:00:00.000Z}
+                selectedDay={2018-04-05T00:00:00.000Z}
+                selectedDays={2018-04-05T00:00:00.000Z}
                 showOutsideDays={false}
                 showWeekDays={true}
                 showWeekNumbers={false}
@@ -409,7 +409,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                           <YearMonthSelection
                             fromMonth={1969-12-31T22:00:00.000Z}
                             onChange={[Function]}
-                            selectedDay={2018-04-04T21:00:00.000Z}
+                            selectedDay={2018-04-05T00:00:00.000Z}
                             toMonth={2028-11-30T22:00:00.000Z}
                           />
                         }
@@ -445,7 +445,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                         firstDayOfWeek={0}
                         fixedWeeks={false}
                         fromMonth={1969-12-31T22:00:00.000Z}
-                        initialMonth={2018-04-04T21:00:00.000Z}
+                        initialMonth={2018-04-05T00:00:00.000Z}
                         key="0"
                         labels={
                           Object {
@@ -521,8 +521,8 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                         renderDay={[Function]}
                         renderWeek={[Function]}
                         reverseMonths={false}
-                        selectedDay={2018-04-04T21:00:00.000Z}
-                        selectedDays={2018-04-04T21:00:00.000Z}
+                        selectedDay={2018-04-05T00:00:00.000Z}
+                        selectedDays={2018-04-05T00:00:00.000Z}
                         showOutsideDays={false}
                         showWeekDays={true}
                         showWeekNumbers={false}
@@ -585,7 +585,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                               }
                             }
                             onChange={[Function]}
-                            selectedDay={2018-04-04T21:00:00.000Z}
+                            selectedDay={2018-04-05T00:00:00.000Z}
                             toMonth={2028-11-30T22:00:00.000Z}
                           >
                             <div
@@ -3213,7 +3213,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
   disabledDays={Array []}
   endYear={2020}
   onSelect={[MockFunction]}
-  selectedDay={2018-04-04T21:00:00.000Z}
+  selectedDay={2018-04-05T00:00:00.000Z}
   showYearMonthSelection={false}
   startYear={2014}
 >
@@ -3236,11 +3236,11 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           "captionElement": undefined,
           "disabledDays": Array [],
           "fromMonth": 2013-12-31T22:00:00.000Z,
-          "initialMonth": 2018-04-04T21:00:00.000Z,
-          "month": 2018-04-04T21:00:00.000Z,
+          "initialMonth": 2018-04-05T00:00:00.000Z,
+          "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": 2018-04-04T21:00:00.000Z,
-          "selectedDays": 2018-04-04T21:00:00.000Z,
+          "selectedDay": 2018-04-05T00:00:00.000Z,
+          "selectedDays": 2018-04-05T00:00:00.000Z,
           "toMonth": 2020-11-30T22:00:00.000Z,
         }
       }
@@ -3254,7 +3254,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
       parseDate={[Function]}
       placeholder="06-11-2018"
       showOverlay={false}
-      value={2018-04-04T21:00:00.000Z}
+      value={2018-04-05T00:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -3286,7 +3286,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           month={2018-04-04T21:00:00.000Z}
           onBlur={[Function]}
           onFocus={[Function]}
-          selectedDay={2018-04-04T21:00:00.000Z}
+          selectedDay={2018-04-05T00:00:00.000Z}
           tabIndex={0}
         >
           <div
@@ -3372,7 +3372,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                 enableOutsideDaysClick={true}
                 fixedWeeks={false}
                 fromMonth={2013-12-31T22:00:00.000Z}
-                initialMonth={2018-04-04T21:00:00.000Z}
+                initialMonth={2018-04-05T00:00:00.000Z}
                 labels={
                   Object {
                     "nextMonth": "Next Month",
@@ -3446,8 +3446,8 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                 renderDay={[Function]}
                 renderWeek={[Function]}
                 reverseMonths={false}
-                selectedDay={2018-04-04T21:00:00.000Z}
-                selectedDays={2018-04-04T21:00:00.000Z}
+                selectedDay={2018-04-05T00:00:00.000Z}
+                selectedDays={2018-04-05T00:00:00.000Z}
                 showOutsideDays={false}
                 showWeekDays={true}
                 showWeekNumbers={false}
@@ -3542,7 +3542,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                         firstDayOfWeek={0}
                         fixedWeeks={false}
                         fromMonth={2013-12-31T22:00:00.000Z}
-                        initialMonth={2018-04-04T21:00:00.000Z}
+                        initialMonth={2018-04-05T00:00:00.000Z}
                         key="0"
                         labels={
                           Object {
@@ -3618,8 +3618,8 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                         renderDay={[Function]}
                         renderWeek={[Function]}
                         reverseMonths={false}
-                        selectedDay={2018-04-04T21:00:00.000Z}
-                        selectedDays={2018-04-04T21:00:00.000Z}
+                        selectedDay={2018-04-05T00:00:00.000Z}
+                        selectedDays={2018-04-05T00:00:00.000Z}
                         showOutsideDays={false}
                         showWeekDays={true}
                         showWeekNumbers={false}
@@ -5892,14 +5892,14 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
   disabledDays={
     Array [
       Object {
-        "from": 2018-04-11T21:00:00.000Z,
-        "to": 2018-04-15T21:00:00.000Z,
+        "from": 2018-04-12T00:00:00.000Z,
+        "to": 2018-04-16T00:00:00.000Z,
       },
     ]
   }
   endYear={2020}
   onSelect={[MockFunction]}
-  selectedDay={2018-04-04T21:00:00.000Z}
+  selectedDay={2018-04-05T00:00:00.000Z}
   showYearMonthSelection={true}
   startYear={2014}
 >
@@ -5922,21 +5922,21 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
           "captionElement": <YearMonthSelection
             fromMonth={2013-12-31T22:00:00.000Z}
             onChange={[Function]}
-            selectedDay={2018-04-04T21:00:00.000Z}
+            selectedDay={2018-04-05T00:00:00.000Z}
             toMonth={2020-11-30T22:00:00.000Z}
           />,
           "disabledDays": Array [
             Object {
-              "from": 2018-04-11T21:00:00.000Z,
-              "to": 2018-04-15T21:00:00.000Z,
+              "from": 2018-04-12T00:00:00.000Z,
+              "to": 2018-04-16T00:00:00.000Z,
             },
           ],
           "fromMonth": 2013-12-31T22:00:00.000Z,
-          "initialMonth": 2018-04-04T21:00:00.000Z,
-          "month": 2018-04-04T21:00:00.000Z,
+          "initialMonth": 2018-04-05T00:00:00.000Z,
+          "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": 2018-04-04T21:00:00.000Z,
-          "selectedDays": 2018-04-04T21:00:00.000Z,
+          "selectedDay": 2018-04-05T00:00:00.000Z,
+          "selectedDays": 2018-04-05T00:00:00.000Z,
           "toMonth": 2020-11-30T22:00:00.000Z,
         }
       }
@@ -5950,7 +5950,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
       parseDate={[Function]}
       placeholder="06-11-2018"
       showOverlay={false}
-      value={2018-04-04T21:00:00.000Z}
+      value={2018-04-05T00:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -5982,7 +5982,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
           month={2018-04-04T21:00:00.000Z}
           onBlur={[Function]}
           onFocus={[Function]}
-          selectedDay={2018-04-04T21:00:00.000Z}
+          selectedDay={2018-04-05T00:00:00.000Z}
           tabIndex={0}
         >
           <div
@@ -6000,7 +6000,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                   <YearMonthSelection
                     fromMonth={2013-12-31T22:00:00.000Z}
                     onChange={[Function]}
-                    selectedDay={2018-04-04T21:00:00.000Z}
+                    selectedDay={2018-04-05T00:00:00.000Z}
                     toMonth={2020-11-30T22:00:00.000Z}
                   />
                 }
@@ -6034,15 +6034,15 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                 disabledDays={
                   Array [
                     Object {
-                      "from": 2018-04-11T21:00:00.000Z,
-                      "to": 2018-04-15T21:00:00.000Z,
+                      "from": 2018-04-12T00:00:00.000Z,
+                      "to": 2018-04-16T00:00:00.000Z,
                     },
                   ]
                 }
                 enableOutsideDaysClick={true}
                 fixedWeeks={false}
                 fromMonth={2013-12-31T22:00:00.000Z}
-                initialMonth={2018-04-04T21:00:00.000Z}
+                initialMonth={2018-04-05T00:00:00.000Z}
                 labels={
                   Object {
                     "nextMonth": "Next Month",
@@ -6116,8 +6116,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                 renderDay={[Function]}
                 renderWeek={[Function]}
                 reverseMonths={false}
-                selectedDay={2018-04-04T21:00:00.000Z}
-                selectedDays={2018-04-04T21:00:00.000Z}
+                selectedDay={2018-04-05T00:00:00.000Z}
+                selectedDays={2018-04-05T00:00:00.000Z}
                 showOutsideDays={false}
                 showWeekDays={true}
                 showWeekNumbers={false}
@@ -6143,7 +6143,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                           <YearMonthSelection
                             fromMonth={2013-12-31T22:00:00.000Z}
                             onChange={[Function]}
-                            selectedDay={2018-04-04T21:00:00.000Z}
+                            selectedDay={2018-04-05T00:00:00.000Z}
                             toMonth={2020-11-30T22:00:00.000Z}
                           />
                         }
@@ -6177,8 +6177,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                         disabledDays={
                           Array [
                             Object {
-                              "from": 2018-04-11T21:00:00.000Z,
-                              "to": 2018-04-15T21:00:00.000Z,
+                              "from": 2018-04-12T00:00:00.000Z,
+                              "to": 2018-04-16T00:00:00.000Z,
                             },
                           ]
                         }
@@ -6186,7 +6186,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                         firstDayOfWeek={0}
                         fixedWeeks={false}
                         fromMonth={2013-12-31T22:00:00.000Z}
-                        initialMonth={2018-04-04T21:00:00.000Z}
+                        initialMonth={2018-04-05T00:00:00.000Z}
                         key="0"
                         labels={
                           Object {
@@ -6262,8 +6262,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                         renderDay={[Function]}
                         renderWeek={[Function]}
                         reverseMonths={false}
-                        selectedDay={2018-04-04T21:00:00.000Z}
-                        selectedDays={2018-04-04T21:00:00.000Z}
+                        selectedDay={2018-04-05T00:00:00.000Z}
+                        selectedDays={2018-04-05T00:00:00.000Z}
                         showOutsideDays={false}
                         showWeekDays={true}
                         showWeekNumbers={false}
@@ -6326,7 +6326,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                               }
                             }
                             onChange={[Function]}
-                            selectedDay={2018-04-04T21:00:00.000Z}
+                            selectedDay={2018-04-05T00:00:00.000Z}
                             toMonth={2020-11-30T22:00:00.000Z}
                           >
                             <div
@@ -8714,7 +8714,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
   disabledDays={Array []}
   endYear={2020}
   onSelect={[MockFunction]}
-  selectedDay={2018-04-04T21:00:00.000Z}
+  selectedDay={2018-04-05T00:00:00.000Z}
   showYearMonthSelection={true}
   startYear={2014}
 >
@@ -8737,16 +8737,16 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
           "captionElement": <YearMonthSelection
             fromMonth={2013-12-31T22:00:00.000Z}
             onChange={[Function]}
-            selectedDay={2018-04-04T21:00:00.000Z}
+            selectedDay={2018-04-05T00:00:00.000Z}
             toMonth={2020-11-30T22:00:00.000Z}
           />,
           "disabledDays": Array [],
           "fromMonth": 2013-12-31T22:00:00.000Z,
-          "initialMonth": 2018-04-04T21:00:00.000Z,
-          "month": 2018-04-04T21:00:00.000Z,
+          "initialMonth": 2018-04-05T00:00:00.000Z,
+          "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": 2018-04-04T21:00:00.000Z,
-          "selectedDays": 2018-04-04T21:00:00.000Z,
+          "selectedDay": 2018-04-05T00:00:00.000Z,
+          "selectedDays": 2018-04-05T00:00:00.000Z,
           "toMonth": 2020-11-30T22:00:00.000Z,
         }
       }
@@ -8760,7 +8760,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
       parseDate={[Function]}
       placeholder="06-11-2018"
       showOverlay={false}
-      value={2018-04-04T21:00:00.000Z}
+      value={2018-04-05T00:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -8792,7 +8792,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
           month={2018-04-04T21:00:00.000Z}
           onBlur={[Function]}
           onFocus={[Function]}
-          selectedDay={2018-04-04T21:00:00.000Z}
+          selectedDay={2018-04-05T00:00:00.000Z}
           tabIndex={0}
         >
           <div
@@ -8810,7 +8810,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                   <YearMonthSelection
                     fromMonth={2013-12-31T22:00:00.000Z}
                     onChange={[Function]}
-                    selectedDay={2018-04-04T21:00:00.000Z}
+                    selectedDay={2018-04-05T00:00:00.000Z}
                     toMonth={2020-11-30T22:00:00.000Z}
                   />
                 }
@@ -8845,7 +8845,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                 enableOutsideDaysClick={true}
                 fixedWeeks={false}
                 fromMonth={2013-12-31T22:00:00.000Z}
-                initialMonth={2018-04-04T21:00:00.000Z}
+                initialMonth={2018-04-05T00:00:00.000Z}
                 labels={
                   Object {
                     "nextMonth": "Next Month",
@@ -8919,8 +8919,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                 renderDay={[Function]}
                 renderWeek={[Function]}
                 reverseMonths={false}
-                selectedDay={2018-04-04T21:00:00.000Z}
-                selectedDays={2018-04-04T21:00:00.000Z}
+                selectedDay={2018-04-05T00:00:00.000Z}
+                selectedDays={2018-04-05T00:00:00.000Z}
                 showOutsideDays={false}
                 showWeekDays={true}
                 showWeekNumbers={false}
@@ -8946,7 +8946,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                           <YearMonthSelection
                             fromMonth={2013-12-31T22:00:00.000Z}
                             onChange={[Function]}
-                            selectedDay={2018-04-04T21:00:00.000Z}
+                            selectedDay={2018-04-05T00:00:00.000Z}
                             toMonth={2020-11-30T22:00:00.000Z}
                           />
                         }
@@ -8982,7 +8982,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                         firstDayOfWeek={0}
                         fixedWeeks={false}
                         fromMonth={2013-12-31T22:00:00.000Z}
-                        initialMonth={2018-04-04T21:00:00.000Z}
+                        initialMonth={2018-04-05T00:00:00.000Z}
                         key="0"
                         labels={
                           Object {
@@ -9058,8 +9058,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                         renderDay={[Function]}
                         renderWeek={[Function]}
                         reverseMonths={false}
-                        selectedDay={2018-04-04T21:00:00.000Z}
-                        selectedDays={2018-04-04T21:00:00.000Z}
+                        selectedDay={2018-04-05T00:00:00.000Z}
+                        selectedDays={2018-04-05T00:00:00.000Z}
                         showOutsideDays={false}
                         showWeekDays={true}
                         showWeekNumbers={false}
@@ -9122,7 +9122,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                               }
                             }
                             onChange={[Function]}
-                            selectedDay={2018-04-04T21:00:00.000Z}
+                            selectedDay={2018-04-05T00:00:00.000Z}
                             toMonth={2020-11-30T22:00:00.000Z}
                           >
                             <div
