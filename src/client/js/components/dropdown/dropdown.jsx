@@ -33,6 +33,9 @@ class Dropdown extends Component {
     this.removeListeners = this.removeListeners.bind(this);
     this.handleDocumentClick = this.handleDocumentClick.bind(this);
     this.controlOnClick = this.controlOnClick.bind(this);
+
+    this.itemRef = React.createRef();
+    this.contentRef = React.createRef();
   }
 
   addListeners() {
@@ -75,23 +78,29 @@ class Dropdown extends Component {
     }
   }
 
+  item(item, ref) {
+    const classes = classNames({
+      dropdown__content__option: true,
+      '--selected': this.state.selected === item.value
+    });
+    return (
+      <div
+        key={`dropdown-option-${item.value}`}
+        className={classes}
+        onClick={this.onClick.bind(this, item.value)}
+        {...ref}
+      >
+        {item.label}
+      </div>
+    );
+  }
+
   get options() {
     return (
-      <div className="dropdown__content">
-        {this.props.items.map(item => {
-          const classes = classNames({
-            dropdown__content__option: true,
-            '--selected': this.state.selected === item.value
-          });
-          return (
-            <div
-              key={`dropdown-option-${item.value}`}
-              className={classes}
-              onClick={this.onClick.bind(this, item.value)}
-            >
-              {item.label}
-            </div>
-          );
+      <div className="dropdown__content" ref={this.contentRef}>
+        {this.props.items.map((item, index) => {
+          const props = index ? {} : {ref: this.itemRef};
+          return this.item(item, props);
         })}
       </div>
     );
@@ -142,6 +151,14 @@ class Dropdown extends Component {
           selected: ''
         });
       }
+    }
+
+    if (this.state.isOpen) {
+      const index = this.props.items.findIndex(item => {
+        return item.value === this.state.selected;
+      });
+      this.contentRef.current.scrollTop =
+        this.itemRef.current.offsetHeight * index;
     }
   }
 

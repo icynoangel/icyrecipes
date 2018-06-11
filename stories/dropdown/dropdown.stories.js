@@ -55,6 +55,15 @@ const itemsTiny = [
   }  
 ];
 
+const itemsTinyLongList = Array.apply(null, {length: 100})
+  .map( (item, index) => {
+    return {
+      label: `${1970 + index}`,
+      value: 1970 + index
+    };
+  });
+
+
 storiesOf('Dropdown', module)
   .add('Dropdown no default selected', 
     withInfo()( () => {
@@ -89,6 +98,15 @@ storiesOf('Dropdown', module)
         type="tiny"
         width="auto"
         items={itemsTiny}
+      />;
+    })
+  ).add('Dropdown tiny long list of items', 
+    withInfo()( () => {
+      return <Dropdown 
+        onChange={action('onChange')} 
+        placeholder="Year"
+        type="tiny"
+        items={itemsTinyLongList}
       />;
     })
   );
