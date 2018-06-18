@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import DayPickerInput from 'react-day-picker/DayPickerInput';
 import {formatDate, parseDate} from 'react-day-picker/moment';
 import YearMonthSelection from './year-month-selection';
+import Input from './../input/input';
 
 class DatePicker extends Component {
   static propTypes = {
@@ -18,7 +19,7 @@ class DatePicker extends Component {
       to: new Date(2018, 0, 16) 
     }]*/
     showYearMonthSelection: PropTypes.bool,
-    onSelect: PropTypes.func.isRequired
+    onSelect: PropTypes.func.isRequired,
   };
 
   static defaultProps = {
@@ -99,6 +100,7 @@ class DatePicker extends Component {
     return (
       <div className="datepicker">
         <DayPickerInput
+          component={Input}
           value={this.state.selectedDay}
           onDayChange={this.onDayChange}
           formatDate={formatDate}
