@@ -8,7 +8,7 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
     [MockFunction] {
       "calls": Array [
         Array [
-          2018-10-09T21:00:00.000Z,
+          2018-10-10T04:00:00.000Z,
         ],
       ],
     }
@@ -34,19 +34,19 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
         Object {
           "canChangeMonth": false,
           "captionElement": <YearMonthSelection
-            fromMonth={2013-12-31T22:00:00.000Z}
+            fromMonth={2014-01-01T05:00:00.000Z}
             onChange={[Function]}
-            selectedDay={2018-10-09T21:00:00.000Z}
-            toMonth={2020-11-30T22:00:00.000Z}
+            selectedDay={2018-10-10T04:00:00.000Z}
+            toMonth={2020-12-01T05:00:00.000Z}
           />,
           "disabledDays": Array [],
-          "fromMonth": 2013-12-31T22:00:00.000Z,
-          "initialMonth": 2018-10-09T21:00:00.000Z,
-          "month": 2018-10-09T21:00:00.000Z,
+          "fromMonth": 2014-01-01T05:00:00.000Z,
+          "initialMonth": 2018-10-10T04:00:00.000Z,
+          "month": 2018-10-10T04:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": 2018-10-09T21:00:00.000Z,
-          "selectedDays": 2018-10-09T21:00:00.000Z,
-          "toMonth": 2020-11-30T22:00:00.000Z,
+          "selectedDay": 2018-10-10T04:00:00.000Z,
+          "selectedDays": 2018-10-10T04:00:00.000Z,
+          "toMonth": 2020-12-01T05:00:00.000Z,
         }
       }
       format="MM-DD-YYYY"
@@ -57,9 +57,9 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="06-11-2018"
+      placeholder="07-19-2018"
       showOverlay={false}
-      value={2018-10-09T21:00:00.000Z}
+      value={2018-10-10T04:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -71,7 +71,7 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="06-11-2018"
+          placeholder="07-19-2018"
           value="10-10-2018"
         />
       </div>
@@ -121,10 +121,10 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
         Object {
           "canChangeMonth": false,
           "captionElement": <YearMonthSelection
-            fromMonth={2013-12-31T22:00:00.000Z}
+            fromMonth={2014-01-01T05:00:00.000Z}
             onChange={[Function]}
             selectedDay={undefined}
-            toMonth={2020-11-30T22:00:00.000Z}
+            toMonth={2020-12-01T05:00:00.000Z}
           />,
           "disabledDays": Array [
             Object {
@@ -132,13 +132,13 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
               "to": 2018-04-16T00:00:00.000Z,
             },
           ],
-          "fromMonth": 2013-12-31T22:00:00.000Z,
+          "fromMonth": 2014-01-01T05:00:00.000Z,
           "initialMonth": undefined,
           "month": undefined,
           "onDayClick": [Function],
           "selectedDay": undefined,
           "selectedDays": undefined,
-          "toMonth": 2020-11-30T22:00:00.000Z,
+          "toMonth": 2020-12-01T05:00:00.000Z,
         }
       }
       format="MM-DD-YYYY"
@@ -149,7 +149,7 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="06-11-2018"
+      placeholder="07-19-2018"
       showOverlay={false}
       value=""
     >
@@ -163,7 +163,7 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="06-11-2018"
+          placeholder="07-19-2018"
           value=""
         />
       </div>
@@ -198,19 +198,19 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
         Object {
           "canChangeMonth": false,
           "captionElement": <YearMonthSelection
-            fromMonth={1969-12-31T22:00:00.000Z}
+            fromMonth={1970-01-01T05:00:00.000Z}
             onChange={[Function]}
             selectedDay={2018-04-05T00:00:00.000Z}
-            toMonth={2028-11-30T22:00:00.000Z}
+            toMonth={2028-12-01T05:00:00.000Z}
           />,
           "disabledDays": Array [],
-          "fromMonth": 1969-12-31T22:00:00.000Z,
+          "fromMonth": 1970-01-01T05:00:00.000Z,
           "initialMonth": 2018-04-05T00:00:00.000Z,
           "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
           "selectedDay": 2018-04-05T00:00:00.000Z,
           "selectedDays": 2018-04-05T00:00:00.000Z,
-          "toMonth": 2028-11-30T22:00:00.000Z,
+          "toMonth": 2028-12-01T05:00:00.000Z,
         }
       }
       format="MM-DD-YYYY"
@@ -221,7 +221,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="06-11-2018"
+      placeholder="07-19-2018"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -235,8 +235,8 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="06-11-2018"
-          value="04-05-2018"
+          placeholder="07-19-2018"
+          value="04-04-2018"
         />
         <OverlayComponent
           classNames={
@@ -248,11 +248,11 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           }
           input={
             <input
-              placeholder="06-11-2018"
-              value="04-05-2018"
+              placeholder="07-19-2018"
+              value="04-04-2018"
             />
           }
-          month={2018-04-04T21:00:00.000Z}
+          month={2018-04-04T04:00:00.000Z}
           onBlur={[Function]}
           onFocus={[Function]}
           selectedDay={2018-04-05T00:00:00.000Z}
@@ -271,10 +271,10 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                 canChangeMonth={false}
                 captionElement={
                   <YearMonthSelection
-                    fromMonth={1969-12-31T22:00:00.000Z}
+                    fromMonth={1970-01-01T05:00:00.000Z}
                     onChange={[Function]}
                     selectedDay={2018-04-05T00:00:00.000Z}
-                    toMonth={2028-11-30T22:00:00.000Z}
+                    toMonth={2028-12-01T05:00:00.000Z}
                   />
                 }
                 classNames={
@@ -307,7 +307,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                 disabledDays={Array []}
                 enableOutsideDaysClick={true}
                 fixedWeeks={false}
-                fromMonth={1969-12-31T22:00:00.000Z}
+                fromMonth={1970-01-01T05:00:00.000Z}
                 initialMonth={2018-04-05T00:00:00.000Z}
                 labels={
                   Object {
@@ -334,7 +334,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                     "getMonths": [Function],
                   }
                 }
-                month={2018-04-04T21:00:00.000Z}
+                month={2018-04-04T04:00:00.000Z}
                 navbarElement={
                   <Navbar
                     classNames={
@@ -388,7 +388,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                 showWeekDays={true}
                 showWeekNumbers={false}
                 tabIndex={0}
-                toMonth={2028-11-30T22:00:00.000Z}
+                toMonth={2028-12-01T05:00:00.000Z}
                 weekdayElement={<Weekday />}
               >
                 <div
@@ -407,10 +407,10 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                         canChangeMonth={false}
                         captionElement={
                           <YearMonthSelection
-                            fromMonth={1969-12-31T22:00:00.000Z}
+                            fromMonth={1970-01-01T05:00:00.000Z}
                             onChange={[Function]}
                             selectedDay={2018-04-05T00:00:00.000Z}
-                            toMonth={2028-11-30T22:00:00.000Z}
+                            toMonth={2028-12-01T05:00:00.000Z}
                           />
                         }
                         classNames={
@@ -444,7 +444,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                         enableOutsideDaysClick={true}
                         firstDayOfWeek={0}
                         fixedWeeks={false}
-                        fromMonth={1969-12-31T22:00:00.000Z}
+                        fromMonth={1970-01-01T05:00:00.000Z}
                         initialMonth={2018-04-05T00:00:00.000Z}
                         key="0"
                         labels={
@@ -472,7 +472,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                             "getMonths": [Function],
                           }
                         }
-                        month={2018-04-01T09:00:00.000Z}
+                        month={2018-04-01T16:00:00.000Z}
                         navbarElement={
                           <Navbar
                             classNames={
@@ -527,7 +527,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                         showWeekDays={true}
                         showWeekNumbers={false}
                         tabIndex={0}
-                        toMonth={2028-11-30T22:00:00.000Z}
+                        toMonth={2028-12-01T05:00:00.000Z}
                         weekdayElement={<Weekday />}
                       >
                         <div
@@ -562,8 +562,8 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                 "wrapper": "DayPicker-wrapper",
                               }
                             }
-                            date={2018-04-01T09:00:00.000Z}
-                            fromMonth={1969-12-31T22:00:00.000Z}
+                            date={2018-04-01T16:00:00.000Z}
+                            fromMonth={1970-01-01T05:00:00.000Z}
                             key="year-month-selection"
                             locale="en"
                             localeUtils={
@@ -586,7 +586,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                             }
                             onChange={[Function]}
                             selectedDay={2018-04-05T00:00:00.000Z}
-                            toMonth={2028-11-30T22:00:00.000Z}
+                            toMonth={2028-12-01T05:00:00.000Z}
                           >
                             <div
                               className="DayPicker-Caption"
@@ -1325,7 +1325,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                           >
                             <div
                               className="DayPicker-Week"
-                              key="1522573200000"
+                              key="1522598400000"
                               role="row"
                             >
                               <Day
@@ -1359,7 +1359,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-01T09:00:00.000Z}
+                                day={2018-04-01T16:00:00.000Z}
                                 empty={false}
                                 key="201831"
                                 modifiers={Object {}}
@@ -1412,7 +1412,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-02T09:00:00.000Z}
+                                day={2018-04-02T16:00:00.000Z}
                                 empty={false}
                                 key="201832"
                                 modifiers={Object {}}
@@ -1465,7 +1465,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-03T09:00:00.000Z}
+                                day={2018-04-03T16:00:00.000Z}
                                 empty={false}
                                 key="201833"
                                 modifiers={Object {}}
@@ -1490,59 +1490,6 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                               <Day
                                 ariaDisabled={false}
                                 ariaLabel="Wed Apr 04 2018"
-                                ariaSelected={false}
-                                classNames={
-                                  Object {
-                                    "body": "DayPicker-Body",
-                                    "caption": "DayPicker-Caption",
-                                    "container": "DayPicker",
-                                    "day": "DayPicker-Day",
-                                    "disabled": "disabled",
-                                    "footer": "DayPicker-Footer",
-                                    "interactionDisabled": "DayPicker--interactionDisabled",
-                                    "month": "DayPicker-Month",
-                                    "months": "DayPicker-Months",
-                                    "navBar": "DayPicker-NavBar",
-                                    "navButtonInteractionDisabled": "DayPicker-NavButton--interactionDisabled",
-                                    "navButtonNext": "DayPicker-NavButton DayPicker-NavButton--next",
-                                    "navButtonPrev": "DayPicker-NavButton DayPicker-NavButton--prev",
-                                    "outside": "outside",
-                                    "selected": "selected",
-                                    "today": "today",
-                                    "todayButton": "DayPicker-TodayButton",
-                                    "week": "DayPicker-Week",
-                                    "weekNumber": "DayPicker-WeekNumber",
-                                    "weekday": "DayPicker-Weekday",
-                                    "weekdays": "DayPicker-Weekdays",
-                                    "weekdaysRow": "DayPicker-WeekdaysRow",
-                                    "wrapper": "DayPicker-wrapper",
-                                  }
-                                }
-                                day={2018-04-04T09:00:00.000Z}
-                                empty={false}
-                                key="201834"
-                                modifiers={Object {}}
-                                modifiersStyles={Object {}}
-                                onClick={[Function]}
-                                onKeyDown={[Function]}
-                                tabIndex={-1}
-                              >
-                                <div
-                                  aria-disabled={false}
-                                  aria-label="Wed Apr 04 2018"
-                                  aria-selected={false}
-                                  className="DayPicker-Day"
-                                  onClick={[Function]}
-                                  onKeyDown={[Function]}
-                                  role="gridcell"
-                                  tabIndex={-1}
-                                >
-                                  4
-                                </div>
-                              </Day>
-                              <Day
-                                ariaDisabled={false}
-                                ariaLabel="Thu Apr 05 2018"
                                 ariaSelected={true}
                                 classNames={
                                   Object {
@@ -1571,9 +1518,9 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-05T09:00:00.000Z}
+                                day={2018-04-04T16:00:00.000Z}
                                 empty={false}
-                                key="201835"
+                                key="201834"
                                 modifiers={
                                   Object {
                                     "selected": true,
@@ -1586,9 +1533,62 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                               >
                                 <div
                                   aria-disabled={false}
-                                  aria-label="Thu Apr 05 2018"
+                                  aria-label="Wed Apr 04 2018"
                                   aria-selected={true}
                                   className="DayPicker-Day DayPicker-Day--selected"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="gridcell"
+                                  tabIndex={-1}
+                                >
+                                  4
+                                </div>
+                              </Day>
+                              <Day
+                                ariaDisabled={false}
+                                ariaLabel="Thu Apr 05 2018"
+                                ariaSelected={false}
+                                classNames={
+                                  Object {
+                                    "body": "DayPicker-Body",
+                                    "caption": "DayPicker-Caption",
+                                    "container": "DayPicker",
+                                    "day": "DayPicker-Day",
+                                    "disabled": "disabled",
+                                    "footer": "DayPicker-Footer",
+                                    "interactionDisabled": "DayPicker--interactionDisabled",
+                                    "month": "DayPicker-Month",
+                                    "months": "DayPicker-Months",
+                                    "navBar": "DayPicker-NavBar",
+                                    "navButtonInteractionDisabled": "DayPicker-NavButton--interactionDisabled",
+                                    "navButtonNext": "DayPicker-NavButton DayPicker-NavButton--next",
+                                    "navButtonPrev": "DayPicker-NavButton DayPicker-NavButton--prev",
+                                    "outside": "outside",
+                                    "selected": "selected",
+                                    "today": "today",
+                                    "todayButton": "DayPicker-TodayButton",
+                                    "week": "DayPicker-Week",
+                                    "weekNumber": "DayPicker-WeekNumber",
+                                    "weekday": "DayPicker-Weekday",
+                                    "weekdays": "DayPicker-Weekdays",
+                                    "weekdaysRow": "DayPicker-WeekdaysRow",
+                                    "wrapper": "DayPicker-wrapper",
+                                  }
+                                }
+                                day={2018-04-05T16:00:00.000Z}
+                                empty={false}
+                                key="201835"
+                                modifiers={Object {}}
+                                modifiersStyles={Object {}}
+                                onClick={[Function]}
+                                onKeyDown={[Function]}
+                                tabIndex={-1}
+                              >
+                                <div
+                                  aria-disabled={false}
+                                  aria-label="Thu Apr 05 2018"
+                                  aria-selected={false}
+                                  className="DayPicker-Day"
                                   onClick={[Function]}
                                   onKeyDown={[Function]}
                                   role="gridcell"
@@ -1628,7 +1628,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-06T09:00:00.000Z}
+                                day={2018-04-06T16:00:00.000Z}
                                 empty={false}
                                 key="201836"
                                 modifiers={Object {}}
@@ -1681,7 +1681,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-07T09:00:00.000Z}
+                                day={2018-04-07T16:00:00.000Z}
                                 empty={false}
                                 key="201837"
                                 modifiers={Object {}}
@@ -1706,7 +1706,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1523178000000"
+                              key="1523203200000"
                               role="row"
                             >
                               <Day
@@ -1740,7 +1740,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-08T09:00:00.000Z}
+                                day={2018-04-08T16:00:00.000Z}
                                 empty={false}
                                 key="201838"
                                 modifiers={Object {}}
@@ -1793,7 +1793,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-09T09:00:00.000Z}
+                                day={2018-04-09T16:00:00.000Z}
                                 empty={false}
                                 key="201839"
                                 modifiers={Object {}}
@@ -1846,7 +1846,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-10T09:00:00.000Z}
+                                day={2018-04-10T16:00:00.000Z}
                                 empty={false}
                                 key="2018310"
                                 modifiers={Object {}}
@@ -1899,7 +1899,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-11T09:00:00.000Z}
+                                day={2018-04-11T16:00:00.000Z}
                                 empty={false}
                                 key="2018311"
                                 modifiers={Object {}}
@@ -1952,7 +1952,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-12T09:00:00.000Z}
+                                day={2018-04-12T16:00:00.000Z}
                                 empty={false}
                                 key="2018312"
                                 modifiers={Object {}}
@@ -2005,7 +2005,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-13T09:00:00.000Z}
+                                day={2018-04-13T16:00:00.000Z}
                                 empty={false}
                                 key="2018313"
                                 modifiers={Object {}}
@@ -2058,7 +2058,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-14T09:00:00.000Z}
+                                day={2018-04-14T16:00:00.000Z}
                                 empty={false}
                                 key="2018314"
                                 modifiers={Object {}}
@@ -2083,7 +2083,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1523782800000"
+                              key="1523808000000"
                               role="row"
                             >
                               <Day
@@ -2117,7 +2117,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-15T09:00:00.000Z}
+                                day={2018-04-15T16:00:00.000Z}
                                 empty={false}
                                 key="2018315"
                                 modifiers={Object {}}
@@ -2170,7 +2170,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-16T09:00:00.000Z}
+                                day={2018-04-16T16:00:00.000Z}
                                 empty={false}
                                 key="2018316"
                                 modifiers={Object {}}
@@ -2223,7 +2223,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-17T09:00:00.000Z}
+                                day={2018-04-17T16:00:00.000Z}
                                 empty={false}
                                 key="2018317"
                                 modifiers={Object {}}
@@ -2276,7 +2276,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-18T09:00:00.000Z}
+                                day={2018-04-18T16:00:00.000Z}
                                 empty={false}
                                 key="2018318"
                                 modifiers={Object {}}
@@ -2329,7 +2329,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-19T09:00:00.000Z}
+                                day={2018-04-19T16:00:00.000Z}
                                 empty={false}
                                 key="2018319"
                                 modifiers={Object {}}
@@ -2382,7 +2382,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-20T09:00:00.000Z}
+                                day={2018-04-20T16:00:00.000Z}
                                 empty={false}
                                 key="2018320"
                                 modifiers={Object {}}
@@ -2435,7 +2435,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-21T09:00:00.000Z}
+                                day={2018-04-21T16:00:00.000Z}
                                 empty={false}
                                 key="2018321"
                                 modifiers={Object {}}
@@ -2460,7 +2460,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1524387600000"
+                              key="1524412800000"
                               role="row"
                             >
                               <Day
@@ -2494,7 +2494,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-22T09:00:00.000Z}
+                                day={2018-04-22T16:00:00.000Z}
                                 empty={false}
                                 key="2018322"
                                 modifiers={Object {}}
@@ -2547,7 +2547,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-23T09:00:00.000Z}
+                                day={2018-04-23T16:00:00.000Z}
                                 empty={false}
                                 key="2018323"
                                 modifiers={Object {}}
@@ -2600,7 +2600,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-24T09:00:00.000Z}
+                                day={2018-04-24T16:00:00.000Z}
                                 empty={false}
                                 key="2018324"
                                 modifiers={Object {}}
@@ -2653,7 +2653,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-25T09:00:00.000Z}
+                                day={2018-04-25T16:00:00.000Z}
                                 empty={false}
                                 key="2018325"
                                 modifiers={Object {}}
@@ -2706,7 +2706,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-26T09:00:00.000Z}
+                                day={2018-04-26T16:00:00.000Z}
                                 empty={false}
                                 key="2018326"
                                 modifiers={Object {}}
@@ -2759,7 +2759,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-27T09:00:00.000Z}
+                                day={2018-04-27T16:00:00.000Z}
                                 empty={false}
                                 key="2018327"
                                 modifiers={Object {}}
@@ -2812,7 +2812,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-28T09:00:00.000Z}
+                                day={2018-04-28T16:00:00.000Z}
                                 empty={false}
                                 key="2018328"
                                 modifiers={Object {}}
@@ -2837,7 +2837,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1524992400000"
+                              key="1525017600000"
                               role="row"
                             >
                               <Day
@@ -2871,7 +2871,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-29T09:00:00.000Z}
+                                day={2018-04-29T16:00:00.000Z}
                                 empty={false}
                                 key="2018329"
                                 modifiers={Object {}}
@@ -2924,7 +2924,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-30T09:00:00.000Z}
+                                day={2018-04-30T16:00:00.000Z}
                                 empty={false}
                                 key="2018330"
                                 modifiers={Object {}}
@@ -2977,7 +2977,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-01T09:00:00.000Z}
+                                day={2018-05-01T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201841"
                                 modifiers={
@@ -3026,7 +3026,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-02T09:00:00.000Z}
+                                day={2018-05-02T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201842"
                                 modifiers={
@@ -3075,7 +3075,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-03T09:00:00.000Z}
+                                day={2018-05-03T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201843"
                                 modifiers={
@@ -3124,7 +3124,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-04T09:00:00.000Z}
+                                day={2018-05-04T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201844"
                                 modifiers={
@@ -3173,7 +3173,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-05T09:00:00.000Z}
+                                day={2018-05-05T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201845"
                                 modifiers={
@@ -3235,13 +3235,13 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           "canChangeMonth": false,
           "captionElement": undefined,
           "disabledDays": Array [],
-          "fromMonth": 2013-12-31T22:00:00.000Z,
+          "fromMonth": 2014-01-01T05:00:00.000Z,
           "initialMonth": 2018-04-05T00:00:00.000Z,
           "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
           "selectedDay": 2018-04-05T00:00:00.000Z,
           "selectedDays": 2018-04-05T00:00:00.000Z,
-          "toMonth": 2020-11-30T22:00:00.000Z,
+          "toMonth": 2020-12-01T05:00:00.000Z,
         }
       }
       format="MM-DD-YYYY"
@@ -3252,7 +3252,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="06-11-2018"
+      placeholder="07-19-2018"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -3266,8 +3266,8 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="06-11-2018"
-          value="04-05-2018"
+          placeholder="07-19-2018"
+          value="04-04-2018"
         />
         <OverlayComponent
           classNames={
@@ -3279,11 +3279,11 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           }
           input={
             <input
-              placeholder="06-11-2018"
-              value="04-05-2018"
+              placeholder="07-19-2018"
+              value="04-04-2018"
             />
           }
-          month={2018-04-04T21:00:00.000Z}
+          month={2018-04-04T04:00:00.000Z}
           onBlur={[Function]}
           onFocus={[Function]}
           selectedDay={2018-04-05T00:00:00.000Z}
@@ -3371,7 +3371,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                 disabledDays={Array []}
                 enableOutsideDaysClick={true}
                 fixedWeeks={false}
-                fromMonth={2013-12-31T22:00:00.000Z}
+                fromMonth={2014-01-01T05:00:00.000Z}
                 initialMonth={2018-04-05T00:00:00.000Z}
                 labels={
                   Object {
@@ -3398,7 +3398,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                     "getMonths": [Function],
                   }
                 }
-                month={2018-04-04T21:00:00.000Z}
+                month={2018-04-04T04:00:00.000Z}
                 navbarElement={
                   <Navbar
                     classNames={
@@ -3452,7 +3452,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                 showWeekDays={true}
                 showWeekNumbers={false}
                 tabIndex={0}
-                toMonth={2020-11-30T22:00:00.000Z}
+                toMonth={2020-12-01T05:00:00.000Z}
                 weekdayElement={<Weekday />}
               >
                 <div
@@ -3541,7 +3541,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                         enableOutsideDaysClick={true}
                         firstDayOfWeek={0}
                         fixedWeeks={false}
-                        fromMonth={2013-12-31T22:00:00.000Z}
+                        fromMonth={2014-01-01T05:00:00.000Z}
                         initialMonth={2018-04-05T00:00:00.000Z}
                         key="0"
                         labels={
@@ -3569,7 +3569,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                             "getMonths": [Function],
                           }
                         }
-                        month={2018-04-01T09:00:00.000Z}
+                        month={2018-04-01T16:00:00.000Z}
                         navbarElement={
                           <Navbar
                             classNames={
@@ -3624,7 +3624,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                         showWeekDays={true}
                         showWeekNumbers={false}
                         tabIndex={0}
-                        toMonth={2020-11-30T22:00:00.000Z}
+                        toMonth={2020-12-01T05:00:00.000Z}
                         weekdayElement={<Weekday />}
                       >
                         <div
@@ -3659,7 +3659,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                 "wrapper": "DayPicker-wrapper",
                               }
                             }
-                            date={2018-04-01T09:00:00.000Z}
+                            date={2018-04-01T16:00:00.000Z}
                             locale="en"
                             localeUtils={
                               Object {
@@ -4004,7 +4004,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                           >
                             <div
                               className="DayPicker-Week"
-                              key="1522573200000"
+                              key="1522598400000"
                               role="row"
                             >
                               <Day
@@ -4038,7 +4038,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-01T09:00:00.000Z}
+                                day={2018-04-01T16:00:00.000Z}
                                 empty={false}
                                 key="201831"
                                 modifiers={Object {}}
@@ -4091,7 +4091,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-02T09:00:00.000Z}
+                                day={2018-04-02T16:00:00.000Z}
                                 empty={false}
                                 key="201832"
                                 modifiers={Object {}}
@@ -4144,7 +4144,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-03T09:00:00.000Z}
+                                day={2018-04-03T16:00:00.000Z}
                                 empty={false}
                                 key="201833"
                                 modifiers={Object {}}
@@ -4169,59 +4169,6 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                               <Day
                                 ariaDisabled={false}
                                 ariaLabel="Wed Apr 04 2018"
-                                ariaSelected={false}
-                                classNames={
-                                  Object {
-                                    "body": "DayPicker-Body",
-                                    "caption": "DayPicker-Caption",
-                                    "container": "DayPicker",
-                                    "day": "DayPicker-Day",
-                                    "disabled": "disabled",
-                                    "footer": "DayPicker-Footer",
-                                    "interactionDisabled": "DayPicker--interactionDisabled",
-                                    "month": "DayPicker-Month",
-                                    "months": "DayPicker-Months",
-                                    "navBar": "DayPicker-NavBar",
-                                    "navButtonInteractionDisabled": "DayPicker-NavButton--interactionDisabled",
-                                    "navButtonNext": "DayPicker-NavButton DayPicker-NavButton--next",
-                                    "navButtonPrev": "DayPicker-NavButton DayPicker-NavButton--prev",
-                                    "outside": "outside",
-                                    "selected": "selected",
-                                    "today": "today",
-                                    "todayButton": "DayPicker-TodayButton",
-                                    "week": "DayPicker-Week",
-                                    "weekNumber": "DayPicker-WeekNumber",
-                                    "weekday": "DayPicker-Weekday",
-                                    "weekdays": "DayPicker-Weekdays",
-                                    "weekdaysRow": "DayPicker-WeekdaysRow",
-                                    "wrapper": "DayPicker-wrapper",
-                                  }
-                                }
-                                day={2018-04-04T09:00:00.000Z}
-                                empty={false}
-                                key="201834"
-                                modifiers={Object {}}
-                                modifiersStyles={Object {}}
-                                onClick={[Function]}
-                                onKeyDown={[Function]}
-                                tabIndex={-1}
-                              >
-                                <div
-                                  aria-disabled={false}
-                                  aria-label="Wed Apr 04 2018"
-                                  aria-selected={false}
-                                  className="DayPicker-Day"
-                                  onClick={[Function]}
-                                  onKeyDown={[Function]}
-                                  role="gridcell"
-                                  tabIndex={-1}
-                                >
-                                  4
-                                </div>
-                              </Day>
-                              <Day
-                                ariaDisabled={false}
-                                ariaLabel="Thu Apr 05 2018"
                                 ariaSelected={true}
                                 classNames={
                                   Object {
@@ -4250,9 +4197,9 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-05T09:00:00.000Z}
+                                day={2018-04-04T16:00:00.000Z}
                                 empty={false}
-                                key="201835"
+                                key="201834"
                                 modifiers={
                                   Object {
                                     "selected": true,
@@ -4265,9 +4212,62 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                               >
                                 <div
                                   aria-disabled={false}
-                                  aria-label="Thu Apr 05 2018"
+                                  aria-label="Wed Apr 04 2018"
                                   aria-selected={true}
                                   className="DayPicker-Day DayPicker-Day--selected"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="gridcell"
+                                  tabIndex={-1}
+                                >
+                                  4
+                                </div>
+                              </Day>
+                              <Day
+                                ariaDisabled={false}
+                                ariaLabel="Thu Apr 05 2018"
+                                ariaSelected={false}
+                                classNames={
+                                  Object {
+                                    "body": "DayPicker-Body",
+                                    "caption": "DayPicker-Caption",
+                                    "container": "DayPicker",
+                                    "day": "DayPicker-Day",
+                                    "disabled": "disabled",
+                                    "footer": "DayPicker-Footer",
+                                    "interactionDisabled": "DayPicker--interactionDisabled",
+                                    "month": "DayPicker-Month",
+                                    "months": "DayPicker-Months",
+                                    "navBar": "DayPicker-NavBar",
+                                    "navButtonInteractionDisabled": "DayPicker-NavButton--interactionDisabled",
+                                    "navButtonNext": "DayPicker-NavButton DayPicker-NavButton--next",
+                                    "navButtonPrev": "DayPicker-NavButton DayPicker-NavButton--prev",
+                                    "outside": "outside",
+                                    "selected": "selected",
+                                    "today": "today",
+                                    "todayButton": "DayPicker-TodayButton",
+                                    "week": "DayPicker-Week",
+                                    "weekNumber": "DayPicker-WeekNumber",
+                                    "weekday": "DayPicker-Weekday",
+                                    "weekdays": "DayPicker-Weekdays",
+                                    "weekdaysRow": "DayPicker-WeekdaysRow",
+                                    "wrapper": "DayPicker-wrapper",
+                                  }
+                                }
+                                day={2018-04-05T16:00:00.000Z}
+                                empty={false}
+                                key="201835"
+                                modifiers={Object {}}
+                                modifiersStyles={Object {}}
+                                onClick={[Function]}
+                                onKeyDown={[Function]}
+                                tabIndex={-1}
+                              >
+                                <div
+                                  aria-disabled={false}
+                                  aria-label="Thu Apr 05 2018"
+                                  aria-selected={false}
+                                  className="DayPicker-Day"
                                   onClick={[Function]}
                                   onKeyDown={[Function]}
                                   role="gridcell"
@@ -4307,7 +4307,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-06T09:00:00.000Z}
+                                day={2018-04-06T16:00:00.000Z}
                                 empty={false}
                                 key="201836"
                                 modifiers={Object {}}
@@ -4360,7 +4360,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-07T09:00:00.000Z}
+                                day={2018-04-07T16:00:00.000Z}
                                 empty={false}
                                 key="201837"
                                 modifiers={Object {}}
@@ -4385,7 +4385,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1523178000000"
+                              key="1523203200000"
                               role="row"
                             >
                               <Day
@@ -4419,7 +4419,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-08T09:00:00.000Z}
+                                day={2018-04-08T16:00:00.000Z}
                                 empty={false}
                                 key="201838"
                                 modifiers={Object {}}
@@ -4472,7 +4472,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-09T09:00:00.000Z}
+                                day={2018-04-09T16:00:00.000Z}
                                 empty={false}
                                 key="201839"
                                 modifiers={Object {}}
@@ -4525,7 +4525,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-10T09:00:00.000Z}
+                                day={2018-04-10T16:00:00.000Z}
                                 empty={false}
                                 key="2018310"
                                 modifiers={Object {}}
@@ -4578,7 +4578,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-11T09:00:00.000Z}
+                                day={2018-04-11T16:00:00.000Z}
                                 empty={false}
                                 key="2018311"
                                 modifiers={Object {}}
@@ -4631,7 +4631,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-12T09:00:00.000Z}
+                                day={2018-04-12T16:00:00.000Z}
                                 empty={false}
                                 key="2018312"
                                 modifiers={Object {}}
@@ -4684,7 +4684,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-13T09:00:00.000Z}
+                                day={2018-04-13T16:00:00.000Z}
                                 empty={false}
                                 key="2018313"
                                 modifiers={Object {}}
@@ -4737,7 +4737,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-14T09:00:00.000Z}
+                                day={2018-04-14T16:00:00.000Z}
                                 empty={false}
                                 key="2018314"
                                 modifiers={Object {}}
@@ -4762,7 +4762,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1523782800000"
+                              key="1523808000000"
                               role="row"
                             >
                               <Day
@@ -4796,7 +4796,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-15T09:00:00.000Z}
+                                day={2018-04-15T16:00:00.000Z}
                                 empty={false}
                                 key="2018315"
                                 modifiers={Object {}}
@@ -4849,7 +4849,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-16T09:00:00.000Z}
+                                day={2018-04-16T16:00:00.000Z}
                                 empty={false}
                                 key="2018316"
                                 modifiers={Object {}}
@@ -4902,7 +4902,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-17T09:00:00.000Z}
+                                day={2018-04-17T16:00:00.000Z}
                                 empty={false}
                                 key="2018317"
                                 modifiers={Object {}}
@@ -4955,7 +4955,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-18T09:00:00.000Z}
+                                day={2018-04-18T16:00:00.000Z}
                                 empty={false}
                                 key="2018318"
                                 modifiers={Object {}}
@@ -5008,7 +5008,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-19T09:00:00.000Z}
+                                day={2018-04-19T16:00:00.000Z}
                                 empty={false}
                                 key="2018319"
                                 modifiers={Object {}}
@@ -5061,7 +5061,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-20T09:00:00.000Z}
+                                day={2018-04-20T16:00:00.000Z}
                                 empty={false}
                                 key="2018320"
                                 modifiers={Object {}}
@@ -5114,7 +5114,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-21T09:00:00.000Z}
+                                day={2018-04-21T16:00:00.000Z}
                                 empty={false}
                                 key="2018321"
                                 modifiers={Object {}}
@@ -5139,7 +5139,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1524387600000"
+                              key="1524412800000"
                               role="row"
                             >
                               <Day
@@ -5173,7 +5173,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-22T09:00:00.000Z}
+                                day={2018-04-22T16:00:00.000Z}
                                 empty={false}
                                 key="2018322"
                                 modifiers={Object {}}
@@ -5226,7 +5226,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-23T09:00:00.000Z}
+                                day={2018-04-23T16:00:00.000Z}
                                 empty={false}
                                 key="2018323"
                                 modifiers={Object {}}
@@ -5279,7 +5279,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-24T09:00:00.000Z}
+                                day={2018-04-24T16:00:00.000Z}
                                 empty={false}
                                 key="2018324"
                                 modifiers={Object {}}
@@ -5332,7 +5332,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-25T09:00:00.000Z}
+                                day={2018-04-25T16:00:00.000Z}
                                 empty={false}
                                 key="2018325"
                                 modifiers={Object {}}
@@ -5385,7 +5385,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-26T09:00:00.000Z}
+                                day={2018-04-26T16:00:00.000Z}
                                 empty={false}
                                 key="2018326"
                                 modifiers={Object {}}
@@ -5438,7 +5438,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-27T09:00:00.000Z}
+                                day={2018-04-27T16:00:00.000Z}
                                 empty={false}
                                 key="2018327"
                                 modifiers={Object {}}
@@ -5491,7 +5491,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-28T09:00:00.000Z}
+                                day={2018-04-28T16:00:00.000Z}
                                 empty={false}
                                 key="2018328"
                                 modifiers={Object {}}
@@ -5516,7 +5516,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1524992400000"
+                              key="1525017600000"
                               role="row"
                             >
                               <Day
@@ -5550,7 +5550,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-29T09:00:00.000Z}
+                                day={2018-04-29T16:00:00.000Z}
                                 empty={false}
                                 key="2018329"
                                 modifiers={Object {}}
@@ -5603,7 +5603,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-30T09:00:00.000Z}
+                                day={2018-04-30T16:00:00.000Z}
                                 empty={false}
                                 key="2018330"
                                 modifiers={Object {}}
@@ -5656,7 +5656,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-01T09:00:00.000Z}
+                                day={2018-05-01T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201841"
                                 modifiers={
@@ -5705,7 +5705,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-02T09:00:00.000Z}
+                                day={2018-05-02T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201842"
                                 modifiers={
@@ -5754,7 +5754,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-03T09:00:00.000Z}
+                                day={2018-05-03T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201843"
                                 modifiers={
@@ -5803,7 +5803,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-04T09:00:00.000Z}
+                                day={2018-05-04T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201844"
                                 modifiers={
@@ -5852,7 +5852,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-05T09:00:00.000Z}
+                                day={2018-05-05T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201845"
                                 modifiers={
@@ -5920,10 +5920,10 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
         Object {
           "canChangeMonth": false,
           "captionElement": <YearMonthSelection
-            fromMonth={2013-12-31T22:00:00.000Z}
+            fromMonth={2014-01-01T05:00:00.000Z}
             onChange={[Function]}
             selectedDay={2018-04-05T00:00:00.000Z}
-            toMonth={2020-11-30T22:00:00.000Z}
+            toMonth={2020-12-01T05:00:00.000Z}
           />,
           "disabledDays": Array [
             Object {
@@ -5931,13 +5931,13 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
               "to": 2018-04-16T00:00:00.000Z,
             },
           ],
-          "fromMonth": 2013-12-31T22:00:00.000Z,
+          "fromMonth": 2014-01-01T05:00:00.000Z,
           "initialMonth": 2018-04-05T00:00:00.000Z,
           "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
           "selectedDay": 2018-04-05T00:00:00.000Z,
           "selectedDays": 2018-04-05T00:00:00.000Z,
-          "toMonth": 2020-11-30T22:00:00.000Z,
+          "toMonth": 2020-12-01T05:00:00.000Z,
         }
       }
       format="MM-DD-YYYY"
@@ -5948,7 +5948,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="06-11-2018"
+      placeholder="07-19-2018"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -5962,8 +5962,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="06-11-2018"
-          value="04-05-2018"
+          placeholder="07-19-2018"
+          value="04-04-2018"
         />
         <OverlayComponent
           classNames={
@@ -5975,11 +5975,11 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
           }
           input={
             <input
-              placeholder="06-11-2018"
-              value="04-05-2018"
+              placeholder="07-19-2018"
+              value="04-04-2018"
             />
           }
-          month={2018-04-04T21:00:00.000Z}
+          month={2018-04-04T04:00:00.000Z}
           onBlur={[Function]}
           onFocus={[Function]}
           selectedDay={2018-04-05T00:00:00.000Z}
@@ -5998,10 +5998,10 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                 canChangeMonth={false}
                 captionElement={
                   <YearMonthSelection
-                    fromMonth={2013-12-31T22:00:00.000Z}
+                    fromMonth={2014-01-01T05:00:00.000Z}
                     onChange={[Function]}
                     selectedDay={2018-04-05T00:00:00.000Z}
-                    toMonth={2020-11-30T22:00:00.000Z}
+                    toMonth={2020-12-01T05:00:00.000Z}
                   />
                 }
                 classNames={
@@ -6041,7 +6041,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                 }
                 enableOutsideDaysClick={true}
                 fixedWeeks={false}
-                fromMonth={2013-12-31T22:00:00.000Z}
+                fromMonth={2014-01-01T05:00:00.000Z}
                 initialMonth={2018-04-05T00:00:00.000Z}
                 labels={
                   Object {
@@ -6068,7 +6068,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                     "getMonths": [Function],
                   }
                 }
-                month={2018-04-04T21:00:00.000Z}
+                month={2018-04-04T04:00:00.000Z}
                 navbarElement={
                   <Navbar
                     classNames={
@@ -6122,7 +6122,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                 showWeekDays={true}
                 showWeekNumbers={false}
                 tabIndex={0}
-                toMonth={2020-11-30T22:00:00.000Z}
+                toMonth={2020-12-01T05:00:00.000Z}
                 weekdayElement={<Weekday />}
               >
                 <div
@@ -6141,10 +6141,10 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                         canChangeMonth={false}
                         captionElement={
                           <YearMonthSelection
-                            fromMonth={2013-12-31T22:00:00.000Z}
+                            fromMonth={2014-01-01T05:00:00.000Z}
                             onChange={[Function]}
                             selectedDay={2018-04-05T00:00:00.000Z}
-                            toMonth={2020-11-30T22:00:00.000Z}
+                            toMonth={2020-12-01T05:00:00.000Z}
                           />
                         }
                         classNames={
@@ -6185,7 +6185,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                         enableOutsideDaysClick={true}
                         firstDayOfWeek={0}
                         fixedWeeks={false}
-                        fromMonth={2013-12-31T22:00:00.000Z}
+                        fromMonth={2014-01-01T05:00:00.000Z}
                         initialMonth={2018-04-05T00:00:00.000Z}
                         key="0"
                         labels={
@@ -6213,7 +6213,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                             "getMonths": [Function],
                           }
                         }
-                        month={2018-04-01T09:00:00.000Z}
+                        month={2018-04-01T16:00:00.000Z}
                         navbarElement={
                           <Navbar
                             classNames={
@@ -6268,7 +6268,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                         showWeekDays={true}
                         showWeekNumbers={false}
                         tabIndex={0}
-                        toMonth={2020-11-30T22:00:00.000Z}
+                        toMonth={2020-12-01T05:00:00.000Z}
                         weekdayElement={<Weekday />}
                       >
                         <div
@@ -6303,8 +6303,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                 "wrapper": "DayPicker-wrapper",
                               }
                             }
-                            date={2018-04-01T09:00:00.000Z}
-                            fromMonth={2013-12-31T22:00:00.000Z}
+                            date={2018-04-01T16:00:00.000Z}
+                            fromMonth={2014-01-01T05:00:00.000Z}
                             key="year-month-selection"
                             locale="en"
                             localeUtils={
@@ -6327,7 +6327,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                             }
                             onChange={[Function]}
                             selectedDay={2018-04-05T00:00:00.000Z}
-                            toMonth={2020-11-30T22:00:00.000Z}
+                            toMonth={2020-12-01T05:00:00.000Z}
                           >
                             <div
                               className="DayPicker-Caption"
@@ -6806,7 +6806,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                           >
                             <div
                               className="DayPicker-Week"
-                              key="1522573200000"
+                              key="1522598400000"
                               role="row"
                             >
                               <Day
@@ -6840,7 +6840,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-01T09:00:00.000Z}
+                                day={2018-04-01T16:00:00.000Z}
                                 empty={false}
                                 key="201831"
                                 modifiers={Object {}}
@@ -6893,7 +6893,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-02T09:00:00.000Z}
+                                day={2018-04-02T16:00:00.000Z}
                                 empty={false}
                                 key="201832"
                                 modifiers={Object {}}
@@ -6946,7 +6946,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-03T09:00:00.000Z}
+                                day={2018-04-03T16:00:00.000Z}
                                 empty={false}
                                 key="201833"
                                 modifiers={Object {}}
@@ -6971,59 +6971,6 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                               <Day
                                 ariaDisabled={false}
                                 ariaLabel="Wed Apr 04 2018"
-                                ariaSelected={false}
-                                classNames={
-                                  Object {
-                                    "body": "DayPicker-Body",
-                                    "caption": "DayPicker-Caption",
-                                    "container": "DayPicker",
-                                    "day": "DayPicker-Day",
-                                    "disabled": "disabled",
-                                    "footer": "DayPicker-Footer",
-                                    "interactionDisabled": "DayPicker--interactionDisabled",
-                                    "month": "DayPicker-Month",
-                                    "months": "DayPicker-Months",
-                                    "navBar": "DayPicker-NavBar",
-                                    "navButtonInteractionDisabled": "DayPicker-NavButton--interactionDisabled",
-                                    "navButtonNext": "DayPicker-NavButton DayPicker-NavButton--next",
-                                    "navButtonPrev": "DayPicker-NavButton DayPicker-NavButton--prev",
-                                    "outside": "outside",
-                                    "selected": "selected",
-                                    "today": "today",
-                                    "todayButton": "DayPicker-TodayButton",
-                                    "week": "DayPicker-Week",
-                                    "weekNumber": "DayPicker-WeekNumber",
-                                    "weekday": "DayPicker-Weekday",
-                                    "weekdays": "DayPicker-Weekdays",
-                                    "weekdaysRow": "DayPicker-WeekdaysRow",
-                                    "wrapper": "DayPicker-wrapper",
-                                  }
-                                }
-                                day={2018-04-04T09:00:00.000Z}
-                                empty={false}
-                                key="201834"
-                                modifiers={Object {}}
-                                modifiersStyles={Object {}}
-                                onClick={[Function]}
-                                onKeyDown={[Function]}
-                                tabIndex={-1}
-                              >
-                                <div
-                                  aria-disabled={false}
-                                  aria-label="Wed Apr 04 2018"
-                                  aria-selected={false}
-                                  className="DayPicker-Day"
-                                  onClick={[Function]}
-                                  onKeyDown={[Function]}
-                                  role="gridcell"
-                                  tabIndex={-1}
-                                >
-                                  4
-                                </div>
-                              </Day>
-                              <Day
-                                ariaDisabled={false}
-                                ariaLabel="Thu Apr 05 2018"
                                 ariaSelected={true}
                                 classNames={
                                   Object {
@@ -7052,9 +6999,9 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-05T09:00:00.000Z}
+                                day={2018-04-04T16:00:00.000Z}
                                 empty={false}
-                                key="201835"
+                                key="201834"
                                 modifiers={
                                   Object {
                                     "selected": true,
@@ -7067,9 +7014,62 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                               >
                                 <div
                                   aria-disabled={false}
-                                  aria-label="Thu Apr 05 2018"
+                                  aria-label="Wed Apr 04 2018"
                                   aria-selected={true}
                                   className="DayPicker-Day DayPicker-Day--selected"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="gridcell"
+                                  tabIndex={-1}
+                                >
+                                  4
+                                </div>
+                              </Day>
+                              <Day
+                                ariaDisabled={false}
+                                ariaLabel="Thu Apr 05 2018"
+                                ariaSelected={false}
+                                classNames={
+                                  Object {
+                                    "body": "DayPicker-Body",
+                                    "caption": "DayPicker-Caption",
+                                    "container": "DayPicker",
+                                    "day": "DayPicker-Day",
+                                    "disabled": "disabled",
+                                    "footer": "DayPicker-Footer",
+                                    "interactionDisabled": "DayPicker--interactionDisabled",
+                                    "month": "DayPicker-Month",
+                                    "months": "DayPicker-Months",
+                                    "navBar": "DayPicker-NavBar",
+                                    "navButtonInteractionDisabled": "DayPicker-NavButton--interactionDisabled",
+                                    "navButtonNext": "DayPicker-NavButton DayPicker-NavButton--next",
+                                    "navButtonPrev": "DayPicker-NavButton DayPicker-NavButton--prev",
+                                    "outside": "outside",
+                                    "selected": "selected",
+                                    "today": "today",
+                                    "todayButton": "DayPicker-TodayButton",
+                                    "week": "DayPicker-Week",
+                                    "weekNumber": "DayPicker-WeekNumber",
+                                    "weekday": "DayPicker-Weekday",
+                                    "weekdays": "DayPicker-Weekdays",
+                                    "weekdaysRow": "DayPicker-WeekdaysRow",
+                                    "wrapper": "DayPicker-wrapper",
+                                  }
+                                }
+                                day={2018-04-05T16:00:00.000Z}
+                                empty={false}
+                                key="201835"
+                                modifiers={Object {}}
+                                modifiersStyles={Object {}}
+                                onClick={[Function]}
+                                onKeyDown={[Function]}
+                                tabIndex={-1}
+                              >
+                                <div
+                                  aria-disabled={false}
+                                  aria-label="Thu Apr 05 2018"
+                                  aria-selected={false}
+                                  className="DayPicker-Day"
                                   onClick={[Function]}
                                   onKeyDown={[Function]}
                                   role="gridcell"
@@ -7109,7 +7109,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-06T09:00:00.000Z}
+                                day={2018-04-06T16:00:00.000Z}
                                 empty={false}
                                 key="201836"
                                 modifiers={Object {}}
@@ -7162,7 +7162,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-07T09:00:00.000Z}
+                                day={2018-04-07T16:00:00.000Z}
                                 empty={false}
                                 key="201837"
                                 modifiers={Object {}}
@@ -7187,7 +7187,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1523178000000"
+                              key="1523203200000"
                               role="row"
                             >
                               <Day
@@ -7221,7 +7221,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-08T09:00:00.000Z}
+                                day={2018-04-08T16:00:00.000Z}
                                 empty={false}
                                 key="201838"
                                 modifiers={Object {}}
@@ -7274,7 +7274,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-09T09:00:00.000Z}
+                                day={2018-04-09T16:00:00.000Z}
                                 empty={false}
                                 key="201839"
                                 modifiers={Object {}}
@@ -7327,7 +7327,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-10T09:00:00.000Z}
+                                day={2018-04-10T16:00:00.000Z}
                                 empty={false}
                                 key="2018310"
                                 modifiers={Object {}}
@@ -7350,7 +7350,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                 </div>
                               </Day>
                               <Day
-                                ariaDisabled={false}
+                                ariaDisabled={true}
                                 ariaLabel="Wed Apr 11 2018"
                                 ariaSelected={false}
                                 classNames={
@@ -7380,20 +7380,24 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-11T09:00:00.000Z}
+                                day={2018-04-11T16:00:00.000Z}
                                 empty={false}
                                 key="2018311"
-                                modifiers={Object {}}
+                                modifiers={
+                                  Object {
+                                    "disabled": true,
+                                  }
+                                }
                                 modifiersStyles={Object {}}
                                 onClick={[Function]}
                                 onKeyDown={[Function]}
                                 tabIndex={-1}
                               >
                                 <div
-                                  aria-disabled={false}
+                                  aria-disabled={true}
                                   aria-label="Wed Apr 11 2018"
                                   aria-selected={false}
-                                  className="DayPicker-Day"
+                                  className="DayPicker-Day DayPicker-Day--disabled"
                                   onClick={[Function]}
                                   onKeyDown={[Function]}
                                   role="gridcell"
@@ -7433,7 +7437,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-12T09:00:00.000Z}
+                                day={2018-04-12T16:00:00.000Z}
                                 empty={false}
                                 key="2018312"
                                 modifiers={
@@ -7490,7 +7494,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-13T09:00:00.000Z}
+                                day={2018-04-13T16:00:00.000Z}
                                 empty={false}
                                 key="2018313"
                                 modifiers={
@@ -7547,7 +7551,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-14T09:00:00.000Z}
+                                day={2018-04-14T16:00:00.000Z}
                                 empty={false}
                                 key="2018314"
                                 modifiers={
@@ -7576,7 +7580,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1523782800000"
+                              key="1523808000000"
                               role="row"
                             >
                               <Day
@@ -7610,7 +7614,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-15T09:00:00.000Z}
+                                day={2018-04-15T16:00:00.000Z}
                                 empty={false}
                                 key="2018315"
                                 modifiers={
@@ -7637,7 +7641,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                 </div>
                               </Day>
                               <Day
-                                ariaDisabled={true}
+                                ariaDisabled={false}
                                 ariaLabel="Mon Apr 16 2018"
                                 ariaSelected={false}
                                 classNames={
@@ -7667,24 +7671,20 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-16T09:00:00.000Z}
+                                day={2018-04-16T16:00:00.000Z}
                                 empty={false}
                                 key="2018316"
-                                modifiers={
-                                  Object {
-                                    "disabled": true,
-                                  }
-                                }
+                                modifiers={Object {}}
                                 modifiersStyles={Object {}}
                                 onClick={[Function]}
                                 onKeyDown={[Function]}
                                 tabIndex={-1}
                               >
                                 <div
-                                  aria-disabled={true}
+                                  aria-disabled={false}
                                   aria-label="Mon Apr 16 2018"
                                   aria-selected={false}
-                                  className="DayPicker-Day DayPicker-Day--disabled"
+                                  className="DayPicker-Day"
                                   onClick={[Function]}
                                   onKeyDown={[Function]}
                                   role="gridcell"
@@ -7724,7 +7724,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-17T09:00:00.000Z}
+                                day={2018-04-17T16:00:00.000Z}
                                 empty={false}
                                 key="2018317"
                                 modifiers={Object {}}
@@ -7777,7 +7777,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-18T09:00:00.000Z}
+                                day={2018-04-18T16:00:00.000Z}
                                 empty={false}
                                 key="2018318"
                                 modifiers={Object {}}
@@ -7830,7 +7830,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-19T09:00:00.000Z}
+                                day={2018-04-19T16:00:00.000Z}
                                 empty={false}
                                 key="2018319"
                                 modifiers={Object {}}
@@ -7883,7 +7883,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-20T09:00:00.000Z}
+                                day={2018-04-20T16:00:00.000Z}
                                 empty={false}
                                 key="2018320"
                                 modifiers={Object {}}
@@ -7936,7 +7936,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-21T09:00:00.000Z}
+                                day={2018-04-21T16:00:00.000Z}
                                 empty={false}
                                 key="2018321"
                                 modifiers={Object {}}
@@ -7961,7 +7961,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1524387600000"
+                              key="1524412800000"
                               role="row"
                             >
                               <Day
@@ -7995,7 +7995,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-22T09:00:00.000Z}
+                                day={2018-04-22T16:00:00.000Z}
                                 empty={false}
                                 key="2018322"
                                 modifiers={Object {}}
@@ -8048,7 +8048,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-23T09:00:00.000Z}
+                                day={2018-04-23T16:00:00.000Z}
                                 empty={false}
                                 key="2018323"
                                 modifiers={Object {}}
@@ -8101,7 +8101,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-24T09:00:00.000Z}
+                                day={2018-04-24T16:00:00.000Z}
                                 empty={false}
                                 key="2018324"
                                 modifiers={Object {}}
@@ -8154,7 +8154,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-25T09:00:00.000Z}
+                                day={2018-04-25T16:00:00.000Z}
                                 empty={false}
                                 key="2018325"
                                 modifiers={Object {}}
@@ -8207,7 +8207,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-26T09:00:00.000Z}
+                                day={2018-04-26T16:00:00.000Z}
                                 empty={false}
                                 key="2018326"
                                 modifiers={Object {}}
@@ -8260,7 +8260,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-27T09:00:00.000Z}
+                                day={2018-04-27T16:00:00.000Z}
                                 empty={false}
                                 key="2018327"
                                 modifiers={Object {}}
@@ -8313,7 +8313,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-28T09:00:00.000Z}
+                                day={2018-04-28T16:00:00.000Z}
                                 empty={false}
                                 key="2018328"
                                 modifiers={Object {}}
@@ -8338,7 +8338,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1524992400000"
+                              key="1525017600000"
                               role="row"
                             >
                               <Day
@@ -8372,7 +8372,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-29T09:00:00.000Z}
+                                day={2018-04-29T16:00:00.000Z}
                                 empty={false}
                                 key="2018329"
                                 modifiers={Object {}}
@@ -8425,7 +8425,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-30T09:00:00.000Z}
+                                day={2018-04-30T16:00:00.000Z}
                                 empty={false}
                                 key="2018330"
                                 modifiers={Object {}}
@@ -8478,7 +8478,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-01T09:00:00.000Z}
+                                day={2018-05-01T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201841"
                                 modifiers={
@@ -8527,7 +8527,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-02T09:00:00.000Z}
+                                day={2018-05-02T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201842"
                                 modifiers={
@@ -8576,7 +8576,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-03T09:00:00.000Z}
+                                day={2018-05-03T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201843"
                                 modifiers={
@@ -8625,7 +8625,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-04T09:00:00.000Z}
+                                day={2018-05-04T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201844"
                                 modifiers={
@@ -8674,7 +8674,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-05T09:00:00.000Z}
+                                day={2018-05-05T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201845"
                                 modifiers={
@@ -8735,19 +8735,19 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
         Object {
           "canChangeMonth": false,
           "captionElement": <YearMonthSelection
-            fromMonth={2013-12-31T22:00:00.000Z}
+            fromMonth={2014-01-01T05:00:00.000Z}
             onChange={[Function]}
             selectedDay={2018-04-05T00:00:00.000Z}
-            toMonth={2020-11-30T22:00:00.000Z}
+            toMonth={2020-12-01T05:00:00.000Z}
           />,
           "disabledDays": Array [],
-          "fromMonth": 2013-12-31T22:00:00.000Z,
+          "fromMonth": 2014-01-01T05:00:00.000Z,
           "initialMonth": 2018-04-05T00:00:00.000Z,
           "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
           "selectedDay": 2018-04-05T00:00:00.000Z,
           "selectedDays": 2018-04-05T00:00:00.000Z,
-          "toMonth": 2020-11-30T22:00:00.000Z,
+          "toMonth": 2020-12-01T05:00:00.000Z,
         }
       }
       format="MM-DD-YYYY"
@@ -8758,7 +8758,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="06-11-2018"
+      placeholder="07-19-2018"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -8772,8 +8772,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="06-11-2018"
-          value="04-05-2018"
+          placeholder="07-19-2018"
+          value="04-04-2018"
         />
         <OverlayComponent
           classNames={
@@ -8785,11 +8785,11 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
           }
           input={
             <input
-              placeholder="06-11-2018"
-              value="04-05-2018"
+              placeholder="07-19-2018"
+              value="04-04-2018"
             />
           }
-          month={2018-04-04T21:00:00.000Z}
+          month={2018-04-04T04:00:00.000Z}
           onBlur={[Function]}
           onFocus={[Function]}
           selectedDay={2018-04-05T00:00:00.000Z}
@@ -8808,10 +8808,10 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                 canChangeMonth={false}
                 captionElement={
                   <YearMonthSelection
-                    fromMonth={2013-12-31T22:00:00.000Z}
+                    fromMonth={2014-01-01T05:00:00.000Z}
                     onChange={[Function]}
                     selectedDay={2018-04-05T00:00:00.000Z}
-                    toMonth={2020-11-30T22:00:00.000Z}
+                    toMonth={2020-12-01T05:00:00.000Z}
                   />
                 }
                 classNames={
@@ -8844,7 +8844,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                 disabledDays={Array []}
                 enableOutsideDaysClick={true}
                 fixedWeeks={false}
-                fromMonth={2013-12-31T22:00:00.000Z}
+                fromMonth={2014-01-01T05:00:00.000Z}
                 initialMonth={2018-04-05T00:00:00.000Z}
                 labels={
                   Object {
@@ -8871,7 +8871,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                     "getMonths": [Function],
                   }
                 }
-                month={2018-04-04T21:00:00.000Z}
+                month={2018-04-04T04:00:00.000Z}
                 navbarElement={
                   <Navbar
                     classNames={
@@ -8925,7 +8925,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                 showWeekDays={true}
                 showWeekNumbers={false}
                 tabIndex={0}
-                toMonth={2020-11-30T22:00:00.000Z}
+                toMonth={2020-12-01T05:00:00.000Z}
                 weekdayElement={<Weekday />}
               >
                 <div
@@ -8944,10 +8944,10 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                         canChangeMonth={false}
                         captionElement={
                           <YearMonthSelection
-                            fromMonth={2013-12-31T22:00:00.000Z}
+                            fromMonth={2014-01-01T05:00:00.000Z}
                             onChange={[Function]}
                             selectedDay={2018-04-05T00:00:00.000Z}
-                            toMonth={2020-11-30T22:00:00.000Z}
+                            toMonth={2020-12-01T05:00:00.000Z}
                           />
                         }
                         classNames={
@@ -8981,7 +8981,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                         enableOutsideDaysClick={true}
                         firstDayOfWeek={0}
                         fixedWeeks={false}
-                        fromMonth={2013-12-31T22:00:00.000Z}
+                        fromMonth={2014-01-01T05:00:00.000Z}
                         initialMonth={2018-04-05T00:00:00.000Z}
                         key="0"
                         labels={
@@ -9009,7 +9009,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                             "getMonths": [Function],
                           }
                         }
-                        month={2018-04-01T09:00:00.000Z}
+                        month={2018-04-01T16:00:00.000Z}
                         navbarElement={
                           <Navbar
                             classNames={
@@ -9064,7 +9064,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                         showWeekDays={true}
                         showWeekNumbers={false}
                         tabIndex={0}
-                        toMonth={2020-11-30T22:00:00.000Z}
+                        toMonth={2020-12-01T05:00:00.000Z}
                         weekdayElement={<Weekday />}
                       >
                         <div
@@ -9099,8 +9099,8 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                 "wrapper": "DayPicker-wrapper",
                               }
                             }
-                            date={2018-04-01T09:00:00.000Z}
-                            fromMonth={2013-12-31T22:00:00.000Z}
+                            date={2018-04-01T16:00:00.000Z}
+                            fromMonth={2014-01-01T05:00:00.000Z}
                             key="year-month-selection"
                             locale="en"
                             localeUtils={
@@ -9123,7 +9123,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                             }
                             onChange={[Function]}
                             selectedDay={2018-04-05T00:00:00.000Z}
-                            toMonth={2020-11-30T22:00:00.000Z}
+                            toMonth={2020-12-01T05:00:00.000Z}
                           >
                             <div
                               className="DayPicker-Caption"
@@ -9602,7 +9602,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                           >
                             <div
                               className="DayPicker-Week"
-                              key="1522573200000"
+                              key="1522598400000"
                               role="row"
                             >
                               <Day
@@ -9636,7 +9636,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-01T09:00:00.000Z}
+                                day={2018-04-01T16:00:00.000Z}
                                 empty={false}
                                 key="201831"
                                 modifiers={Object {}}
@@ -9689,7 +9689,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-02T09:00:00.000Z}
+                                day={2018-04-02T16:00:00.000Z}
                                 empty={false}
                                 key="201832"
                                 modifiers={Object {}}
@@ -9742,7 +9742,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-03T09:00:00.000Z}
+                                day={2018-04-03T16:00:00.000Z}
                                 empty={false}
                                 key="201833"
                                 modifiers={Object {}}
@@ -9767,59 +9767,6 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                               <Day
                                 ariaDisabled={false}
                                 ariaLabel="Wed Apr 04 2018"
-                                ariaSelected={false}
-                                classNames={
-                                  Object {
-                                    "body": "DayPicker-Body",
-                                    "caption": "DayPicker-Caption",
-                                    "container": "DayPicker",
-                                    "day": "DayPicker-Day",
-                                    "disabled": "disabled",
-                                    "footer": "DayPicker-Footer",
-                                    "interactionDisabled": "DayPicker--interactionDisabled",
-                                    "month": "DayPicker-Month",
-                                    "months": "DayPicker-Months",
-                                    "navBar": "DayPicker-NavBar",
-                                    "navButtonInteractionDisabled": "DayPicker-NavButton--interactionDisabled",
-                                    "navButtonNext": "DayPicker-NavButton DayPicker-NavButton--next",
-                                    "navButtonPrev": "DayPicker-NavButton DayPicker-NavButton--prev",
-                                    "outside": "outside",
-                                    "selected": "selected",
-                                    "today": "today",
-                                    "todayButton": "DayPicker-TodayButton",
-                                    "week": "DayPicker-Week",
-                                    "weekNumber": "DayPicker-WeekNumber",
-                                    "weekday": "DayPicker-Weekday",
-                                    "weekdays": "DayPicker-Weekdays",
-                                    "weekdaysRow": "DayPicker-WeekdaysRow",
-                                    "wrapper": "DayPicker-wrapper",
-                                  }
-                                }
-                                day={2018-04-04T09:00:00.000Z}
-                                empty={false}
-                                key="201834"
-                                modifiers={Object {}}
-                                modifiersStyles={Object {}}
-                                onClick={[Function]}
-                                onKeyDown={[Function]}
-                                tabIndex={-1}
-                              >
-                                <div
-                                  aria-disabled={false}
-                                  aria-label="Wed Apr 04 2018"
-                                  aria-selected={false}
-                                  className="DayPicker-Day"
-                                  onClick={[Function]}
-                                  onKeyDown={[Function]}
-                                  role="gridcell"
-                                  tabIndex={-1}
-                                >
-                                  4
-                                </div>
-                              </Day>
-                              <Day
-                                ariaDisabled={false}
-                                ariaLabel="Thu Apr 05 2018"
                                 ariaSelected={true}
                                 classNames={
                                   Object {
@@ -9848,9 +9795,9 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-05T09:00:00.000Z}
+                                day={2018-04-04T16:00:00.000Z}
                                 empty={false}
-                                key="201835"
+                                key="201834"
                                 modifiers={
                                   Object {
                                     "selected": true,
@@ -9863,9 +9810,62 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                               >
                                 <div
                                   aria-disabled={false}
-                                  aria-label="Thu Apr 05 2018"
+                                  aria-label="Wed Apr 04 2018"
                                   aria-selected={true}
                                   className="DayPicker-Day DayPicker-Day--selected"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="gridcell"
+                                  tabIndex={-1}
+                                >
+                                  4
+                                </div>
+                              </Day>
+                              <Day
+                                ariaDisabled={false}
+                                ariaLabel="Thu Apr 05 2018"
+                                ariaSelected={false}
+                                classNames={
+                                  Object {
+                                    "body": "DayPicker-Body",
+                                    "caption": "DayPicker-Caption",
+                                    "container": "DayPicker",
+                                    "day": "DayPicker-Day",
+                                    "disabled": "disabled",
+                                    "footer": "DayPicker-Footer",
+                                    "interactionDisabled": "DayPicker--interactionDisabled",
+                                    "month": "DayPicker-Month",
+                                    "months": "DayPicker-Months",
+                                    "navBar": "DayPicker-NavBar",
+                                    "navButtonInteractionDisabled": "DayPicker-NavButton--interactionDisabled",
+                                    "navButtonNext": "DayPicker-NavButton DayPicker-NavButton--next",
+                                    "navButtonPrev": "DayPicker-NavButton DayPicker-NavButton--prev",
+                                    "outside": "outside",
+                                    "selected": "selected",
+                                    "today": "today",
+                                    "todayButton": "DayPicker-TodayButton",
+                                    "week": "DayPicker-Week",
+                                    "weekNumber": "DayPicker-WeekNumber",
+                                    "weekday": "DayPicker-Weekday",
+                                    "weekdays": "DayPicker-Weekdays",
+                                    "weekdaysRow": "DayPicker-WeekdaysRow",
+                                    "wrapper": "DayPicker-wrapper",
+                                  }
+                                }
+                                day={2018-04-05T16:00:00.000Z}
+                                empty={false}
+                                key="201835"
+                                modifiers={Object {}}
+                                modifiersStyles={Object {}}
+                                onClick={[Function]}
+                                onKeyDown={[Function]}
+                                tabIndex={-1}
+                              >
+                                <div
+                                  aria-disabled={false}
+                                  aria-label="Thu Apr 05 2018"
+                                  aria-selected={false}
+                                  className="DayPicker-Day"
                                   onClick={[Function]}
                                   onKeyDown={[Function]}
                                   role="gridcell"
@@ -9905,7 +9905,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-06T09:00:00.000Z}
+                                day={2018-04-06T16:00:00.000Z}
                                 empty={false}
                                 key="201836"
                                 modifiers={Object {}}
@@ -9958,7 +9958,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-07T09:00:00.000Z}
+                                day={2018-04-07T16:00:00.000Z}
                                 empty={false}
                                 key="201837"
                                 modifiers={Object {}}
@@ -9983,7 +9983,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1523178000000"
+                              key="1523203200000"
                               role="row"
                             >
                               <Day
@@ -10017,7 +10017,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-08T09:00:00.000Z}
+                                day={2018-04-08T16:00:00.000Z}
                                 empty={false}
                                 key="201838"
                                 modifiers={Object {}}
@@ -10070,7 +10070,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-09T09:00:00.000Z}
+                                day={2018-04-09T16:00:00.000Z}
                                 empty={false}
                                 key="201839"
                                 modifiers={Object {}}
@@ -10123,7 +10123,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-10T09:00:00.000Z}
+                                day={2018-04-10T16:00:00.000Z}
                                 empty={false}
                                 key="2018310"
                                 modifiers={Object {}}
@@ -10176,7 +10176,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-11T09:00:00.000Z}
+                                day={2018-04-11T16:00:00.000Z}
                                 empty={false}
                                 key="2018311"
                                 modifiers={Object {}}
@@ -10229,7 +10229,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-12T09:00:00.000Z}
+                                day={2018-04-12T16:00:00.000Z}
                                 empty={false}
                                 key="2018312"
                                 modifiers={Object {}}
@@ -10282,7 +10282,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-13T09:00:00.000Z}
+                                day={2018-04-13T16:00:00.000Z}
                                 empty={false}
                                 key="2018313"
                                 modifiers={Object {}}
@@ -10335,7 +10335,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-14T09:00:00.000Z}
+                                day={2018-04-14T16:00:00.000Z}
                                 empty={false}
                                 key="2018314"
                                 modifiers={Object {}}
@@ -10360,7 +10360,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1523782800000"
+                              key="1523808000000"
                               role="row"
                             >
                               <Day
@@ -10394,7 +10394,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-15T09:00:00.000Z}
+                                day={2018-04-15T16:00:00.000Z}
                                 empty={false}
                                 key="2018315"
                                 modifiers={Object {}}
@@ -10447,7 +10447,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-16T09:00:00.000Z}
+                                day={2018-04-16T16:00:00.000Z}
                                 empty={false}
                                 key="2018316"
                                 modifiers={Object {}}
@@ -10500,7 +10500,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-17T09:00:00.000Z}
+                                day={2018-04-17T16:00:00.000Z}
                                 empty={false}
                                 key="2018317"
                                 modifiers={Object {}}
@@ -10553,7 +10553,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-18T09:00:00.000Z}
+                                day={2018-04-18T16:00:00.000Z}
                                 empty={false}
                                 key="2018318"
                                 modifiers={Object {}}
@@ -10606,7 +10606,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-19T09:00:00.000Z}
+                                day={2018-04-19T16:00:00.000Z}
                                 empty={false}
                                 key="2018319"
                                 modifiers={Object {}}
@@ -10659,7 +10659,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-20T09:00:00.000Z}
+                                day={2018-04-20T16:00:00.000Z}
                                 empty={false}
                                 key="2018320"
                                 modifiers={Object {}}
@@ -10712,7 +10712,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-21T09:00:00.000Z}
+                                day={2018-04-21T16:00:00.000Z}
                                 empty={false}
                                 key="2018321"
                                 modifiers={Object {}}
@@ -10737,7 +10737,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1524387600000"
+                              key="1524412800000"
                               role="row"
                             >
                               <Day
@@ -10771,7 +10771,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-22T09:00:00.000Z}
+                                day={2018-04-22T16:00:00.000Z}
                                 empty={false}
                                 key="2018322"
                                 modifiers={Object {}}
@@ -10824,7 +10824,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-23T09:00:00.000Z}
+                                day={2018-04-23T16:00:00.000Z}
                                 empty={false}
                                 key="2018323"
                                 modifiers={Object {}}
@@ -10877,7 +10877,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-24T09:00:00.000Z}
+                                day={2018-04-24T16:00:00.000Z}
                                 empty={false}
                                 key="2018324"
                                 modifiers={Object {}}
@@ -10930,7 +10930,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-25T09:00:00.000Z}
+                                day={2018-04-25T16:00:00.000Z}
                                 empty={false}
                                 key="2018325"
                                 modifiers={Object {}}
@@ -10983,7 +10983,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-26T09:00:00.000Z}
+                                day={2018-04-26T16:00:00.000Z}
                                 empty={false}
                                 key="2018326"
                                 modifiers={Object {}}
@@ -11036,7 +11036,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-27T09:00:00.000Z}
+                                day={2018-04-27T16:00:00.000Z}
                                 empty={false}
                                 key="2018327"
                                 modifiers={Object {}}
@@ -11089,7 +11089,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-28T09:00:00.000Z}
+                                day={2018-04-28T16:00:00.000Z}
                                 empty={false}
                                 key="2018328"
                                 modifiers={Object {}}
@@ -11114,7 +11114,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                             </div>
                             <div
                               className="DayPicker-Week"
-                              key="1524992400000"
+                              key="1525017600000"
                               role="row"
                             >
                               <Day
@@ -11148,7 +11148,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-29T09:00:00.000Z}
+                                day={2018-04-29T16:00:00.000Z}
                                 empty={false}
                                 key="2018329"
                                 modifiers={Object {}}
@@ -11201,7 +11201,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-04-30T09:00:00.000Z}
+                                day={2018-04-30T16:00:00.000Z}
                                 empty={false}
                                 key="2018330"
                                 modifiers={Object {}}
@@ -11254,7 +11254,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-01T09:00:00.000Z}
+                                day={2018-05-01T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201841"
                                 modifiers={
@@ -11303,7 +11303,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-02T09:00:00.000Z}
+                                day={2018-05-02T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201842"
                                 modifiers={
@@ -11352,7 +11352,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-03T09:00:00.000Z}
+                                day={2018-05-03T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201843"
                                 modifiers={
@@ -11401,7 +11401,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-04T09:00:00.000Z}
+                                day={2018-05-04T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201844"
                                 modifiers={
@@ -11450,7 +11450,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
                                     "wrapper": "DayPicker-wrapper",
                                   }
                                 }
-                                day={2018-05-05T09:00:00.000Z}
+                                day={2018-05-05T16:00:00.000Z}
                                 empty={true}
                                 key="outside-201845"
                                 modifiers={

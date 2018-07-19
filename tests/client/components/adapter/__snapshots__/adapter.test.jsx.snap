@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Adapter /> Should render wrapped component 1`] = `
+<Adapter
+  component={[Function]}
+  counter={1}
+>
+  <Component
+    counter={1}
+  >
+    <div>
+      1
+    </div>
+  </Component>
+</Adapter>
+`;
+
+exports[`<Adapter /> Should render wrapped component and update its props 1`] = `
+<Adapter
+  component={[Function]}
+  counter={1}
+>
+  <Component
+    counter={3}
+  >
+    <div>
+      3
+    </div>
+  </Component>
+</Adapter>
+`;

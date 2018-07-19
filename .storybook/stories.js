@@ -25,3 +25,5 @@ import '../stories/items/item.stories.js';
 import '../stories/items/items.stories.js';
 
 import '../stories/notification/notification.stories.js';
+
+import '../stories/adapter/adapter.stories.js';
