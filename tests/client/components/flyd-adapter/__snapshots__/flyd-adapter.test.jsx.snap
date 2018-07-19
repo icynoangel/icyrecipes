@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlydAdapter /> Should render wrapped component 1`] = `
+<FlydAdapter
+  component={[Function]}
+  stream={[Function]}
+>
+  <Component
+    average={5}
+    colors={
+      Array [
+        "blue",
+        "yellow",
+      ]
+    }
+  >
+    <div>
+      <div>
+        Average: 
+        5
+      </div>
+      <div>
+        <div
+          key="0"
+        >
+          Color: 
+          blue
+        </div>
+        <div
+          key="1"
+        >
+          Color: 
+          yellow
+        </div>
+      </div>
+    </div>
+  </Component>
+</FlydAdapter>
+`;
+
+exports[`<FlydAdapter /> Should render wrapped component and update its props 1`] = `
+<FlydAdapter
+  component={[Function]}
+  stream={[Function]}
+>
+  <Component
+    average={10}
+    colors={
+      Array [
+        "red",
+        "green",
+      ]
+    }
+  >
+    <div>
+      <div>
+        Average: 
+        10
+      </div>
+      <div>
+        <div
+          key="0"
+        >
+          Color: 
+          red
+        </div>
+        <div
+          key="1"
+        >
+          Color: 
+          green
+        </div>
+      </div>
+    </div>
+  </Component>
+</FlydAdapter>
+`;

@@ -27,3 +27,4 @@ import '../stories/items/items.stories.js';
 import '../stories/notification/notification.stories.js';
 
 import '../stories/adapter/adapter.stories.js';
+import '../stories/flyd-adapter/flyd-adapter.stories.js';
