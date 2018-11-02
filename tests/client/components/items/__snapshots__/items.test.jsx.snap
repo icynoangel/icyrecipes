@@ -16,15 +16,15 @@ exports[`<Items /> Should render <Items /> 1`] = `
       />
     </div>
     <div
-      className="item__details"
+      className="item-details"
     >
       <div
-        className="item__title"
+        className="item-details__title"
       >
         Boat
       </div>
       <div
-        className="item__description"
+        className="item-details__description"
       >
         Lonely boat
       </div>
@@ -42,15 +42,15 @@ exports[`<Items /> Should render <Items /> 1`] = `
       />
     </div>
     <div
-      className="item__details"
+      className="item-details"
     >
       <div
-        className="item__title"
+        className="item-details__title"
       >
         Rain
       </div>
       <div
-        className="item__description"
+        className="item-details__description"
       >
         Sunset rain
       </div>

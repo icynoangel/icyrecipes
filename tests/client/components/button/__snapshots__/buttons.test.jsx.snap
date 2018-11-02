@@ -11,7 +11,7 @@ exports[`<Buttons /> Should render <Buttons />, <Modal /> and <ModalConfirmation
     Get Items
   </button>
   <button
-    className="button --primary"
+    className="button --secondary"
     onClick={[Function]}
   >
     Open Modal

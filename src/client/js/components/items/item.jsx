@@ -14,9 +14,11 @@ class Item extends Component {
         <div className="item__image">
           <img src={item.get('itemImage')} alt={item.get('itemDescription')} />
         </div>
-        <div className="item__details">
-          <div className="item__title">{item.get('itemTitle')}</div>
-          <div className="item__description">{item.get('itemDescription')}</div>
+        <div className="item-details">
+          <div className="item-details__title">{item.get('itemTitle')}</div>
+          <div className="item-details__description">
+            {item.get('itemDescription')}
+          </div>
         </div>
       </div>
     );

@@ -28,7 +28,7 @@ $item-bg-color: $alto;
 $item-details-font-size: $font-smaller;
 $item-shadow-color: $alto;
 
-@include component(item) {
+@include component(item) { // block
   background-color: $item-bg-color;
   box-shadow: 3px 3px 6px $item-shadow-color;
   color: $item-color;
@@ -40,7 +40,7 @@ $item-shadow-color: $alto;
   padding: 1rem;
   width: 27rem;
 
-  @include part(image) {
+  @include part(image) { // element 
     height: 17rem;
     width: 25rem;
 
@@ -49,13 +49,13 @@ $item-shadow-color: $alto;
       width: 100%;
     }
   }
+}
 
-  @include part(details) {
-    height: 11rem;
-    padding-top: 1rem;
-    vertical-align: top;
-  }
-
+@include component(item-details) { // block
+  height: 11rem;
+  padding-top: 1rem;
+  vertical-align: top;
+  
   @include part(title) {
     font-weight: 700;
     height: 2rem;

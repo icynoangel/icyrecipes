@@ -39,7 +39,7 @@ class Buttons extends Component {
           key="open-confirmation-modal"
           onClick={this.openConfirmationModal}
           caption="Open Modal"
-          type="primary"
+          type="secondary"
         />
         <Modal ref="confirmationModal">
           <ModalConfirmation

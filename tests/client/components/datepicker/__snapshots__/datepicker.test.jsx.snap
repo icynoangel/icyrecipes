@@ -57,7 +57,7 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="07-19-2018"
+      placeholder="11-02-2018"
       showOverlay={false}
       value={2018-10-10T04:00:00.000Z}
     >
@@ -71,7 +71,7 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="07-19-2018"
+          placeholder="11-02-2018"
           value="10-10-2018"
         />
       </div>
@@ -149,7 +149,7 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="07-19-2018"
+      placeholder="11-02-2018"
       showOverlay={false}
       value=""
     >
@@ -163,7 +163,7 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="07-19-2018"
+          placeholder="11-02-2018"
           value=""
         />
       </div>
@@ -221,7 +221,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="07-19-2018"
+      placeholder="11-02-2018"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -235,7 +235,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="07-19-2018"
+          placeholder="11-02-2018"
           value="04-04-2018"
         />
         <OverlayComponent
@@ -248,7 +248,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           }
           input={
             <input
-              placeholder="07-19-2018"
+              placeholder="11-02-2018"
               value="04-04-2018"
             />
           }
@@ -3252,7 +3252,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="07-19-2018"
+      placeholder="11-02-2018"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -3266,7 +3266,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="07-19-2018"
+          placeholder="11-02-2018"
           value="04-04-2018"
         />
         <OverlayComponent
@@ -3279,7 +3279,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           }
           input={
             <input
-              placeholder="07-19-2018"
+              placeholder="11-02-2018"
               value="04-04-2018"
             />
           }
@@ -5948,7 +5948,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="07-19-2018"
+      placeholder="11-02-2018"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -5962,7 +5962,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="07-19-2018"
+          placeholder="11-02-2018"
           value="04-04-2018"
         />
         <OverlayComponent
@@ -5975,7 +5975,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
           }
           input={
             <input
-              placeholder="07-19-2018"
+              placeholder="11-02-2018"
               value="04-04-2018"
             />
           }
@@ -8758,7 +8758,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="07-19-2018"
+      placeholder="11-02-2018"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -8772,7 +8772,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="07-19-2018"
+          placeholder="11-02-2018"
           value="04-04-2018"
         />
         <OverlayComponent
@@ -8785,7 +8785,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
           }
           input={
             <input
-              placeholder="07-19-2018"
+              placeholder="11-02-2018"
               value="04-04-2018"
             />
           }
