@@ -165,7 +165,10 @@ module.exports = {
           // Process JS with Babel.
           {
             test: /\.(js|jsx)$/,
-            include: paths.appSrc,
+            include: [
+              paths.appSrc,
+              path.resolve(paths.appNodeModules + "/@salesforce/design-system-react")
+            ],
             loader: require.resolve('babel-loader'),
             options: {
               

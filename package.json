@@ -6,6 +6,8 @@
   "description": "Custom setup of create-react-app (with sample app, unit tests and mock server)",
   "license": "MIT",
   "dependencies": {
+    "@salesforce-ux/design-system": "^2.7.5",
+    "@salesforce/design-system-react": "^0.9.3",
     "autoprefixer": "7.1.2",
     "babel-core": "6.26.3",
     "babel-eslint": "^7.2.3",

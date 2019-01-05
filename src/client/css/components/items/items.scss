@@ -1,4 +1,4 @@
-$items-bg-color: $gallery;
+$items-bg-color: $white;
 
 @include component(items) {
   background-color: $items-bg-color;
