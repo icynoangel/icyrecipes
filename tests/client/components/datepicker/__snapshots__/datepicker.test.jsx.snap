@@ -36,16 +36,16 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
           "captionElement": <YearMonthSelection
             fromMonth={2014-01-01T05:00:00.000Z}
             onChange={[Function]}
-            selectedDay={2018-10-10T04:00:00.000Z}
+            selectedDay={2018-04-05T00:00:00.000Z}
             toMonth={2020-12-01T05:00:00.000Z}
           />,
           "disabledDays": Array [],
           "fromMonth": 2014-01-01T05:00:00.000Z,
-          "initialMonth": 2018-10-10T04:00:00.000Z,
-          "month": 2018-10-10T04:00:00.000Z,
+          "initialMonth": 2018-04-05T00:00:00.000Z,
+          "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": 2018-10-10T04:00:00.000Z,
-          "selectedDays": 2018-10-10T04:00:00.000Z,
+          "selectedDay": 2018-04-05T00:00:00.000Z,
+          "selectedDays": 2018-04-05T00:00:00.000Z,
           "toMonth": 2020-12-01T05:00:00.000Z,
         }
       }
@@ -57,9 +57,9 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="11-02-2018"
+      placeholder="01-13-2019"
       showOverlay={false}
-      value={2018-10-10T04:00:00.000Z}
+      value={2018-04-05T00:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -71,7 +71,7 @@ exports[`<Datepicker /> Should change picker when input value is changed 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="11-02-2018"
+          placeholder="01-13-2019"
           value="10-10-2018"
         />
       </div>
@@ -123,7 +123,7 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
           "captionElement": <YearMonthSelection
             fromMonth={2014-01-01T05:00:00.000Z}
             onChange={[Function]}
-            selectedDay={undefined}
+            selectedDay={2018-04-05T00:00:00.000Z}
             toMonth={2020-12-01T05:00:00.000Z}
           />,
           "disabledDays": Array [
@@ -133,11 +133,11 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
             },
           ],
           "fromMonth": 2014-01-01T05:00:00.000Z,
-          "initialMonth": undefined,
-          "month": undefined,
+          "initialMonth": 2018-04-05T00:00:00.000Z,
+          "month": 2018-04-05T00:00:00.000Z,
           "onDayClick": [Function],
-          "selectedDay": undefined,
-          "selectedDays": undefined,
+          "selectedDay": 2018-04-05T00:00:00.000Z,
+          "selectedDays": 2018-04-05T00:00:00.000Z,
           "toMonth": 2020-12-01T05:00:00.000Z,
         }
       }
@@ -149,9 +149,9 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="11-02-2018"
+      placeholder="01-13-2019"
       showOverlay={false}
-      value=""
+      value={2018-04-05T00:00:00.000Z}
     >
       <div
         className="DayPickerInput"
@@ -163,8 +163,8 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="11-02-2018"
-          value=""
+          placeholder="01-13-2019"
+          value="3-13-2018"
         />
       </div>
     </DayPickerInput>
@@ -175,7 +175,7 @@ exports[`<Datepicker /> Should not change picker when disabled date is selected 
 exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
 <DatePicker
   disabledDays={Array []}
-  endYear={2028}
+  endYear={2029}
   onSelect={[MockFunction]}
   selectedDay={2018-04-05T00:00:00.000Z}
   showYearMonthSelection={true}
@@ -201,7 +201,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
             fromMonth={1970-01-01T05:00:00.000Z}
             onChange={[Function]}
             selectedDay={2018-04-05T00:00:00.000Z}
-            toMonth={2028-12-01T05:00:00.000Z}
+            toMonth={2029-12-01T05:00:00.000Z}
           />,
           "disabledDays": Array [],
           "fromMonth": 1970-01-01T05:00:00.000Z,
@@ -210,7 +210,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           "onDayClick": [Function],
           "selectedDay": 2018-04-05T00:00:00.000Z,
           "selectedDays": 2018-04-05T00:00:00.000Z,
-          "toMonth": 2028-12-01T05:00:00.000Z,
+          "toMonth": 2029-12-01T05:00:00.000Z,
         }
       }
       format="MM-DD-YYYY"
@@ -221,7 +221,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="11-02-2018"
+      placeholder="01-13-2019"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -235,7 +235,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="11-02-2018"
+          placeholder="01-13-2019"
           value="04-04-2018"
         />
         <OverlayComponent
@@ -248,7 +248,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
           }
           input={
             <input
-              placeholder="11-02-2018"
+              placeholder="01-13-2019"
               value="04-04-2018"
             />
           }
@@ -274,7 +274,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                     fromMonth={1970-01-01T05:00:00.000Z}
                     onChange={[Function]}
                     selectedDay={2018-04-05T00:00:00.000Z}
-                    toMonth={2028-12-01T05:00:00.000Z}
+                    toMonth={2029-12-01T05:00:00.000Z}
                   />
                 }
                 classNames={
@@ -388,7 +388,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                 showWeekDays={true}
                 showWeekNumbers={false}
                 tabIndex={0}
-                toMonth={2028-12-01T05:00:00.000Z}
+                toMonth={2029-12-01T05:00:00.000Z}
                 weekdayElement={<Weekday />}
               >
                 <div
@@ -410,7 +410,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                             fromMonth={1970-01-01T05:00:00.000Z}
                             onChange={[Function]}
                             selectedDay={2018-04-05T00:00:00.000Z}
-                            toMonth={2028-12-01T05:00:00.000Z}
+                            toMonth={2029-12-01T05:00:00.000Z}
                           />
                         }
                         classNames={
@@ -527,7 +527,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                         showWeekDays={true}
                         showWeekNumbers={false}
                         tabIndex={0}
-                        toMonth={2028-12-01T05:00:00.000Z}
+                        toMonth={2029-12-01T05:00:00.000Z}
                         weekdayElement={<Weekday />}
                       >
                         <div
@@ -586,7 +586,7 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                             }
                             onChange={[Function]}
                             selectedDay={2018-04-05T00:00:00.000Z}
-                            toMonth={2028-12-01T05:00:00.000Z}
+                            toMonth={2029-12-01T05:00:00.000Z}
                           >
                             <div
                               className="DayPicker-Caption"
@@ -983,6 +983,11 @@ exports[`<Datepicker /> Should render <Datepicker /> 1`] = `
                                         "label": 2028,
                                         "selected": false,
                                         "value": 2028,
+                                      },
+                                      Object {
+                                        "label": 2029,
+                                        "selected": false,
+                                        "value": 2029,
                                       },
                                     ]
                                   }
@@ -3252,7 +3257,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="11-02-2018"
+      placeholder="01-13-2019"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -3266,7 +3271,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="11-02-2018"
+          placeholder="01-13-2019"
           value="04-04-2018"
         />
         <OverlayComponent
@@ -3279,7 +3284,7 @@ exports[`<Datepicker /> Should render <Datepicker /> no year month selection 1`]
           }
           input={
             <input
-              placeholder="11-02-2018"
+              placeholder="01-13-2019"
               value="04-04-2018"
             />
           }
@@ -5948,7 +5953,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="11-02-2018"
+      placeholder="01-13-2019"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -5962,7 +5967,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="11-02-2018"
+          placeholder="01-13-2019"
           value="04-04-2018"
         />
         <OverlayComponent
@@ -5975,7 +5980,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with disabled days 1`] = `
           }
           input={
             <input
-              placeholder="11-02-2018"
+              placeholder="01-13-2019"
               value="04-04-2018"
             />
           }
@@ -8758,7 +8763,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
       onDayChange={[Function]}
       overlayComponent={[Function]}
       parseDate={[Function]}
-      placeholder="11-02-2018"
+      placeholder="01-13-2019"
       showOverlay={false}
       value={2018-04-05T00:00:00.000Z}
     >
@@ -8772,7 +8777,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
-          placeholder="11-02-2018"
+          placeholder="01-13-2019"
           value="04-04-2018"
         />
         <OverlayComponent
@@ -8785,7 +8790,7 @@ exports[`<Datepicker /> Should render <Datepicker /> with startYear and endYear 
           }
           input={
             <input
-              placeholder="11-02-2018"
+              placeholder="01-13-2019"
               value="04-04-2018"
             />
           }

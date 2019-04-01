@@ -8,11 +8,21 @@ class Button extends Component {
     type: PropTypes.string.isRequired
   };
 
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(event) {
+    console.log(event, this);
+    this.props.onClick();
+  }
+
   render() {
     const modifier = `--${this.props.type}`;
 
     return (
-      <button className={`button ${modifier}`} onClick={this.props.onClick}>
+      <button className={`button ${modifier}`} onClick={this.handleClick}>
         {this.props.caption}
       </button>
     );
